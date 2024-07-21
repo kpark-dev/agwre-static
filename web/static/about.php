@@ -21,7 +21,7 @@ require('includes/header.php');
                 <img src="images/about-1.png" atl="" />
               </div>
             </div>
-          </div>
+          </div> 
           <!-- mobile only visible -->
           <div class="flex items-start justify-between">
             <div class="max-w-[163px] w-full -mt-2.5">
