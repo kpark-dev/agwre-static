@@ -99,6 +99,15 @@
     .recent-homes-slider .slick-dots li.slick-active {
         @apply bg-[#f8f8f9] opacity-100;
     }
+    .teams-slider ul.slick-dots {
+        @apply !text-right !mt-[50px] right-0 left-[unset] flex !absolute;
+    } 
+    .teams-slider .slick-dots li { 
+        @apply inline-block !w-[10px] min-w-[10px] min-h-[10px] !h-[10px] mx-0.5 rounded-lg bg-primary opacity-20;
+    }
+    .teams-slider .slick-dots li.slick-active {
+        @apply bg-primary opacity-100;
+    } 
     .homeItemBlock {
         @apply relative;
     } 
@@ -120,7 +129,23 @@
     .headerLinks a {
         @apply text-[13px];
     }
-} 
+    .blockOne::before {
+        @apply z-[-1] content-[""] absolute w-[183px] md:w-[130px] lg:w-[252px] h-[94px] md:h-[103px] lg:h-[130px] right-[6px] top-[-45px] lg:top-[-10px] bg-[#b9c5d1];
+    }
+    .blockTwo::before {
+        @apply z-[-1] content-[""] absolute w-[44px] md:w-[65px] lg:w-[44px] h-[252px] md:h-[155px] lg:h-[252px] left-[-20px] md:left-[20px] lg:left-[-10px] top-[-25px] md:top-[-10px] bg-[#dfe6ee];
+    }
+    .blockThree::before {
+        @apply z-[-1] content-[""] absolute w-[252px] md:w-[130px] lg:w-[252px] h-[111px] md:h-[104px] lg:h-[111px] left-0 lg:left-[30px] top-[67px] lg:top-[87px] bg-[#f8f8f9]; 
+    } 
+    .blockFour::before {
+        @apply z-[-1] content-[""] absolute w-[149px] md:w-[99px] lg:w-[174px] h-[355px] md:h-[207px] lg:h-[391px] left-[-5px] md:left-[-40px] lg:left-[-84px] xxl:left-[-60px] top-[-55px] md:top-[-35px] lg:top-[-80px] bg-[#0e202c];  
+    } 
+    .blockFive::before {
+        @apply z-[-1] content-[""] absolute w-[156px] md:w-[130px] lg:w-[252px] h-[211px] md:h-[111px] lg:h-[216px] right-[20px] lg:right-[60px] top-[-20px] bg-[#ced4db]; 
+    } 
+       
+}   
 
 html, body {
     -webkit-font-smoothing: antialiased;
@@ -139,7 +164,28 @@ html, body {
 .drawer-side {
     z-index: 11 !important;
 }
+.teams-slider .slider-item {
+    margin-right: 6px;
+    min-width: 100px;
+}
+.teams-slider .slick-list{padding:0 80% 0 0 !important;}
+.textGradient {
+    background-image: -webkit-linear-gradient(0deg, #ffffff 22%, #0E202C 0%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
 @media only screen and (max-width: 767px) {
-
+    .bg-path {
+        background-size: 56% !important;
+    }
+    .textGradient {
+        background-image: -webkit-linear-gradient(0deg, #ffffff 39%, #0E202C 0%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+    }
 }
  

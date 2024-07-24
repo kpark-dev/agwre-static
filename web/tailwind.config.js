@@ -37,6 +37,7 @@ module.exports = {
       'icon-chevron': "url('/static/images/icons/icon-chevron.svg')",
       'icon-chevron-primary': "url('/static/images/icons/icon-chevron-primary.svg')",
       'icon-facebook': "url('/static/images/icons/icon-facebook.svg')",
+      'path': "url('/static/images/path.png')",
       'icon-instagram': "url('/static/images/icons/icon-instagram.svg')",
       'icon-twitter': "url('/static/images/icons/icon-twitter.svg')",
       'icon-pinterest': "url('/static/images/icons/icon-pinterest.svg')",

@@ -21,8 +21,8 @@
                 <div class="row">
                     <div class="fullwidth-col">
                         <!-- desktop -->
-                        <div class="top-20 lg:left-5 xxxl:left-[40px] hidden xxl:block fixed">
-                            <div class="max-w-[50px] flex flex-col gap-[18px] items-center mb-[131px]">
+                        <div class="top-20 lg:left-5 xxxl:left-[40px] hidden xxl:flex fixed min-h-[calc(100vh_-_120px)] justify-between flex-col gap-10">
+                            <div class="max-w-[50px] flex flex-col gap-[18px] items-center">
                                 <img loading="lazy" src="./images/header-logo.svg" alt="logo" class="max-w-[50px]" />
                                 <details class="dropdown">
                                     <summary class="flex gap-2 items-center">
@@ -34,7 +34,7 @@
                                     </ul>
                                 </details>
                             </div>
-                            <div class="flex flex-col gap-10 mb-[175px] headerLinks">
+                            <div class="flex flex-col gap-10 headerLinks">
                                 <a href="/" class="active">Home</a>
                                 <a href="../static/homes.php">Homes</a>
                                 <a href="../static/calculators.php">Calculators</a>

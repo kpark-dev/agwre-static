@@ -1258,30 +1258,48 @@
         }
 
         var initExploreHomesSlider = function () {
-            $('.explore-homes-slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                swipe: true,
-                infinite: true,
-                swipeToSlide: true,
-                dots: true,
-                arrows: false,
-                autoplay: false,
-                autoplaySpeed: 4000,
-            });
+            if ($('.explore-homes-slider').length) {
+                $('.explore-homes-slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    swipe: true,
+                    infinite: true,
+                    swipeToSlide: true,
+                    dots: true,
+                    arrows: false,
+                    autoplay: false,
+                    autoplaySpeed: 4000,
+                });
+            }
         }
         var initRecentHomesSlider = function () {
-            $('.recent-homes-slider').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                swipe: true,
-                infinite: true,
-                swipeToSlide: true,
-                dots: true,
-                arrows: false,
-                autoplay: false,
-                autoplaySpeed: 4000,
-            });
+            if ($('.recent-homes-slider').length) {
+                $('.recent-homes-slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    swipe: true,
+                    infinite: true,
+                    swipeToSlide: true,
+                    dots: true,
+                    arrows: false,
+                    autoplay: false,
+                    autoplaySpeed: 4000,
+                });
+            }
+        }
+        var initTeamSlider = function () {
+            if ($('.teams-slider').length) {
+                if (window.innerWidth < 768) {
+                    $('.teams-slider').slick({
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        arrows: false,
+                        dots: true,
+                        adaptiveHeight: true,
+                        variableWidth: true,
+                    });
+                }
+            }
         }
 
         var initTwoColSlider = function () {
@@ -2087,6 +2105,7 @@
                 initTestimonialSlider();
                 initExploreHomesSlider();
                 initRecentHomesSlider();
+                initTeamSlider();
                 initTwoColSlider();
                 initReviewsSlider();
                 initOtherHomesSlider();
