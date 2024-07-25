@@ -1272,6 +1272,20 @@
                 });
             }
         }
+        var initExploreNeighborhoodSlider = function () {
+            if ($('.explore-neighborhood-slider').length) {
+                $('.explore-neighborhood-slider').slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    swipe: true,
+                    swipeToSlide: true,
+                    dots: true,
+                    arrows: false,
+                    centerMode: true, 
+                    centerPadding: '0',
+                });
+            }
+        }
         var initRecentHomesSlider = function () {
             if ($('.recent-homes-slider').length) {
                 $('.recent-homes-slider').slick({
@@ -2104,6 +2118,7 @@
                 initArticleSlider();
                 initTestimonialSlider();
                 initExploreHomesSlider();
+                initExploreNeighborhoodSlider();
                 initRecentHomesSlider();
                 initTeamSlider();
                 initTwoColSlider();

@@ -81,6 +81,15 @@
     .testimonial-slider ul.slick-dots {
         @apply !text-left !mt-[-15px] lg:!mt-[-133px] !absolute ml-[225px] lg:ml-0;
     }
+    .explore-neighborhood-slider ul.slick-dots {
+        @apply !text-center items-center justify-center left-6 right-6 flex !absolute;
+    } 
+    .explore-neighborhood-slider .slick-dots li {
+        @apply inline-block !w-[9px] min-w-[9px] min-h-[9px] !h-[9px] mx-0.5 rounded-lg bg-primary opacity-35;
+    }
+    .explore-neighborhood-slider .slick-dots li.slick-active {
+        @apply bg-primary opacity-100;
+    }
     .explore-homes-slider ul.slick-dots {
         @apply !text-right !mt-[-45px] right-6 flex !absolute;
     } 
@@ -123,6 +132,9 @@
     .homeItemBlock .contentBlock {
         @apply absolute -translate-y-2/4 m-0 top-2/4 shadow-[0px_3px_15px_#000000] inset-x-0 bg-primary/80 p-6 min-h-[136px] flex flex-col gap-[35px] justify-between;
     }
+    .homeItemBlock:hover .homeNameOverlay {
+        @apply opacity-0 pointer-events-none;
+    }
     .headerLinks a.active, .headerLinks a:hover {
         @apply text-[#B9C5D1];
     }
@@ -144,7 +156,12 @@
     .blockFive::before {
         @apply z-[-1] content-[""] absolute w-[156px] md:w-[130px] lg:w-[252px] h-[211px] md:h-[111px] lg:h-[216px] right-[20px] lg:right-[60px] top-[-20px] bg-[#ced4db]; 
     } 
-       
+    .contentBlock p {
+        @apply text-[11px] md:text-xs lg:text-md leading-[180%] mb-8;
+    }
+    .contentBlock p:last-child {
+        @apply !mb-0;
+    }
 }   
 
 html, body {
@@ -176,7 +193,20 @@ html, body {
     text-fill-color: transparent;
     -webkit-text-fill-color: transparent;
 }
+.explore-neighborhood-slider .slider-item {
+    transform: scale(0.8);
+    overflow: hidden;
+}
+.explore-neighborhood-slider .slider-item.slick-center {
+    transform: scale(1) !important;
+}
+.explore-neighborhood-slider .slick-list{padding:0 20% 0 20% !important;}
+
 @media only screen and (max-width: 767px) {
+    .explore-neighborhood-slider .homeItemBlock {
+        min-width: 241px;
+        max-height: 241px;
+    }
     .bg-path {
         background-size: 56% !important;
     }
