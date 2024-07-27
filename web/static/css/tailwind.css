@@ -201,7 +201,9 @@ html, body {
     transform: scale(1) !important;
 }
 .explore-neighborhood-slider .slick-list{padding:0 20% 0 20% !important;}
-
+.min-w-\[32px\] p {
+    margin-bottom: 0;
+}
 @media only screen and (max-width: 767px) {
     .explore-neighborhood-slider .homeItemBlock {
         min-width: 241px;
