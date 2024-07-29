@@ -251,6 +251,13 @@ html, body {
     font-size: 13px;
     line-height: 28px;
 }
+.tab:is(input[type="radio"]) {
+    padding: 0;
+    border: 0;
+    margin-right: 65px;
+    background: transparent;
+    font-size: 13px;
+}
 @media only screen and (max-width: 1023px) {
     .accordion-holder {
         width: 100%;
