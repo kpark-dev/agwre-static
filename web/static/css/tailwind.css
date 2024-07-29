@@ -204,6 +204,81 @@ html, body {
 .min-w-\[32px\] p {
     margin-bottom: 0;
 }
+.accordion-holder {
+    width: 100%;
+    border-left: 13px solid #0e202c;
+    margin-left: 32px;
+    max-width: 989px;
+}
+.accordion-holder.active {
+    border-left: 13px solid #b9c5d1;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    margin: 0;
+    max-width: unset;
+}
+.accordion-holder .accordion {
+    background-color: #f8f8f9;
+    cursor: pointer;
+    padding: 26px 28px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 13px;
+    transition: 0.4s;
+    letter-spacing: 2px;
+}
+.accordion-holder .accordion.active::after {
+    content: "";
+    position: absolute;
+    left: 60px;
+    right: 60px;
+    height: 1px;
+    background: #707070;
+    bottom: 0;
+}
+.accordion-holder .accordion.active {
+    padding-left: 60px;
+    position: relative;
+}
+.accordion-holder .panel {
+    padding: 24px 60px;
+    display: none;
+    background-color: #f8f8f9;
+    overflow: hidden;
+}
+.accordion-holder .panel p {
+    margin-bottom: 0;
+    font-size: 13px;
+    line-height: 28px;
+}
+@media only screen and (max-width: 1023px) {
+    .accordion-holder {
+        width: 100%;
+        border-left: 13px solid #0e202c;
+        margin-left: 0;
+        max-width: 989px;
+    }
+    .accordion-holder .accordion {
+        background-color: #f8f8f9;
+        cursor: pointer;
+        padding: 22px 20px;
+        font-size: 10px;
+    }
+    .accordion-holder .accordion.active {
+        padding-left: 20px;
+        position: relative;
+    }
+    .accordion-holder .panel {
+        padding: 24px 20px;
+    }
+    .accordion-holder .panel p {
+        font-size: 10px;
+    }
+    .accordion-holder .accordion.active::after {
+        left: 20px;
+        right: 20px;
+    }
+}
 @media only screen and (max-width: 767px) {
     .explore-neighborhood-slider .homeItemBlock {
         min-width: 241px;

@@ -1090,13 +1090,16 @@
                 $(document).on('click', '.accordion', function () {
                     $this = $(this);
                     $target = $this.next();
+                    $holder = $this.parent('.accordion-holder');
 
                     if (!$target.hasClass('active')) {
                         $this.addClass('active');
+                        $holder.addClass('active');
                         $target.addClass('active').slideDown('slow');
                     } else {
                         $target.removeClass('active').stop(true, true).slideUp('slow');
                         $this.removeClass('active');
+                        $holder.removeClass('active');
                     }
                 });
             }

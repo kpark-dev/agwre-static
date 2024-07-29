@@ -88,7 +88,7 @@ require('includes/header.php');
           <div class="block md:hidden overflow-hidden h-20">
             <img src="images/Atwater-11.svg" loading="lazy" alt="" class="rotate-[-90deg] w-20 max-h-[181px] m-auto -mt-10" />
           </div>
-          <h2 class="pt-6 md:pt-0 font-cirka text-[45px] md:text-[70px] lg:text-[120px] text-center mb-0 md:mb-4">Other <br class="block md:hidden" />Calculators</h2>
+          <h2 class="pt-6 md:pt-0 font-cirka text-[45px] md:text-[60px] lg:text-[90px] text-center mb-0 md:mb-4">Other <br class="block md:hidden" />Calculators</h2>
           <p class="text-xs md:text-base opacity-40 md:opacity-100 mb-0 text-center">Calculate your expenses and risks</p>
           <div class="pt-[78px] md:pt-[97px] w-full flex flex-col md:flex-row gap-12 md:gap-[46px] items-center md:items-start">
             <div class="max-w-[321px] text-center md:text-right flex flex-col gap-12 md:gap-[67px]">
@@ -116,6 +116,52 @@ require('includes/header.php');
               <div class="w-full">
                 <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Affordability</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine Your Budget, Estimate Monthly Costs, and Find Your Ideal Property.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FAQ -->
+    <div class="w-full hidden md:block">
+      <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+        <div class="fullwidth-col">
+          <div class="max-w-[1076px] m-auto">
+            <div class="w-full flex flex-col items-center lg:items-end gap-[5px] lg:gap-[22px] mb-[66px] lg:mb-[105px]">
+              <h1 class="text-[45px] leading-[36px] md:text-[50px] md:leading-[63px] lg:text-[90px] lg:leading-[96px] mb-0 relative font-cirka">Faq’s about calculators</h1>
+              <p class="ml-auto lg:mr-0 mr-auto max-w-[401px] mb-0 leading-[180%] text-[11px] md:text-xxs lg:text-md lg:pr-[93px]">Calculate your expenses and risks
+              </p>
+            </div>
+            <div class="w-full max-w-[493px] lg:max-w-[1021px] m-auto flex flex-col items-center gap-[15px] lg:gap-8">
+              <div class="accordion-holder">
+                <button class="accordion">q: What is the principal of a loan?</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                </div>
+              </div>
+              <div class="accordion-holder active">
+                <button class="accordion active">How does a 15-year mortgage compare to a 30-year mortgage?</button>
+                <div class="panel active" style="display: block;">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                </div>
+              </div>
+              <div class="accordion-holder">
+                <button class="accordion">q: How are mortgage payments calculated?</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                </div>
+              </div>
+              <div class="accordion-holder">
+                <button class="accordion">q: How much are closing costs?</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                </div>
+              </div>
+              <div class="accordion-holder">
+                <button class="accordion">q: How can you lower your mortgage payments?</button>
+                <div class="panel">
+                  <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
+                </div>
               </div>
             </div>
           </div>
