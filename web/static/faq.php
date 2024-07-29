@@ -241,7 +241,7 @@ require('includes/header.php');
               <div class="w-full text-center">
                 <details class="dropdown mb-[38px]">
                   <summary class="flex gap-2 items-center">
-                    <p class="text-primary mb-0">Getting started</p><i class="bg-icon-chevron-primary w-[6px] h-1 no-repeat bg-center">&nbsp;</i>
+                    <p class="text-primary mb-0 text-xxs md:text-xs">Getting started</p><i class="bg-icon-chevron-primary w-[6px] h-1 no-repeat bg-center">&nbsp;</i>
                   </summary>
                   <ul class="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                     <li><a>Getting started</a></li>
