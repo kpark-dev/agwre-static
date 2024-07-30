@@ -89,6 +89,15 @@
     }
     .explore-neighborhood-slider .slick-dots li.slick-active {
         @apply bg-primary opacity-100;
+    } 
+    .articleSlider ul.slick-dots {
+        @apply !text-right items-center justify-center !left-[unset] right-0 !mt-[-17px] flex !absolute;
+    } 
+    .articleSlider .slick-dots li {
+        @apply inline-block !w-[9px] min-w-[9px] min-h-[9px] !h-[9px] mx-0.5 rounded-lg bg-primary opacity-35;
+    }
+    .articleSlider .slick-dots li.slick-active {
+        @apply bg-primary opacity-100;
     }
     .explore-homes-slider ul.slick-dots {
         @apply !text-right !mt-[-45px] right-6 flex !absolute;
@@ -160,6 +169,15 @@
         @apply text-[11px] md:text-xs lg:text-md leading-[180%] mb-8;
     }
     .contentBlock p:last-child {
+        @apply !mb-0;
+    }
+    .blog-content {
+        @apply w-full;
+    }
+    .blogContentBlock p {
+        @apply text-[11px] md:text-xs lg:text-md mb-6 leading-[180%];
+    }
+    .blogContentBlock p:last-child {
         @apply !mb-0;
     }
 }   

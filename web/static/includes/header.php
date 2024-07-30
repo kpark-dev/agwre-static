@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="fullwidth-col">
                         <!-- desktop -->
-                        <div class="top-20 lg:left-5 xxxl:left-[40px] hidden xxl:flex fixed min-h-[calc(100vh_-_120px)] justify-between flex-col gap-10">
+                        <div class="z-[11111] top-20 lg:left-5 xxxl:left-[40px] hidden xxl:flex fixed min-h-[calc(100vh_-_120px)] justify-between flex-col gap-10">
                             <div class="max-w-[50px] flex flex-col gap-[18px] items-center">
                                 <img loading="lazy" src="./images/header-logo.svg" alt="logo" class="max-w-[50px]" />
                                 <details class="dropdown">
