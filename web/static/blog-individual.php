@@ -129,7 +129,7 @@ require('includes/header.php');
                 <a href="#" class="tracking-[2px] text-[11px] lg:text-s mb-0">Read more</a>
               </div>
             </div>
-            <div class="col-span-1 px-2.5 lg:px-0">
+            <div class="col-span-1 px-2.5 lg:px-0"> 
               <div class="with-hover-animation max-h-[279px]">
                 <img src="images/blogarticle-2.png" class="min-h-[201px]" />
               </div>
