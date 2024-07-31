@@ -118,7 +118,7 @@ require('includes/header.php');
           <h2 class="text-[45px] md:text-[70px] lg:text-[90px] mb-[37px] md:mb-[45px] lg:mb-20">Related Articles</h2>
           <div class="block lg:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 articleSlider slider-with-dots">
             <div class="col-span-1 px-2.5 lg:px-0">
-              <div class="with-hover-animation max-h-[279px]">
+              <div class="with-hover-animation max-h-[231px] lg:max-h-[279px]">
                 <img src="images/blogarticle-1.png" class="min-h-[201px]" />
               </div>
               <div class="pt-[27px] lg:pt-[45px]">
@@ -130,7 +130,7 @@ require('includes/header.php');
               </div>
             </div>
             <div class="col-span-1 px-2.5 lg:px-0"> 
-              <div class="with-hover-animation max-h-[279px]">
+              <div class="with-hover-animation max-h-[231px] lg:max-h-[279px]">
                 <img src="images/blogarticle-2.png" class="min-h-[201px]" />
               </div>
               <div class="pt-[27px] lg:pt-[45px]">
@@ -142,7 +142,7 @@ require('includes/header.php');
               </div>
             </div>
             <div class="col-span-1 px-2.5 lg:px-0">
-              <div class="with-hover-animation max-h-[279px]">
+              <div class="with-hover-animation max-h-[231px] lg:max-h-[279px]">
                 <img src="images/blogarticle-3.png" class="min-h-[201px]" />
               </div>
               <div class="pt-[27px] lg:pt-[45px]">
