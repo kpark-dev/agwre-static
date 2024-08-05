@@ -180,6 +180,69 @@
     .blogContentBlock p:last-child {
         @apply !mb-0;
     }
+    .timeList .item {
+        @apply col-span-1 bg-primary/10 rounded-[10px] flex justify-center items-center hover:bg-primary  hover:text-white cursor-pointer h-[41px] md:h-[46px] lg:h-[50px];
+    }
+    .timeList .item.active {
+        @apply hover:bg-primary hover:text-white;
+    }
+    .formBtnHollow, .formBtnSolid {
+        @apply h-[54px] md:h-[61px] flex items-center justify-center text-xs lg:text-s border-primary border-solid border rounded-[5px];
+    }
+    .formBtnHollow {
+        @apply hover:bg-primary hover:text-white bg-white text-primary;
+    }
+    .formBtnSolid {
+        @apply bg-primary text-white hover:bg-white hover:text-primary;
+    }
+    .datepicker-picker {
+        @apply w-full !p-0 !shadow-none !bg-transparent;
+    }
+    .datepicker-picker {
+    @apply w-full;
+    }
+    .datepicker-view .days {
+    @apply w-full mt-[46px];
+    }
+    .datepicker-main {
+    @apply p-0;
+    }
+    .datepicker-view {
+    @apply w-full;
+    }
+    .days-of-week {
+        @apply gap-5 !mb-[30px];
+    }
+    .days-of-week span {
+        @apply text-sm text-[#0e202c] opacity-[0.22];
+    }
+    .datepicker-grid {
+    @apply w-full gap-[26px_20px];
+    }
+    .datepicker-grid span {
+    @apply w-9 h-9 rounded-[50px] bg-primary/10 hover:bg-primary hover:text-white text-center flex items-center justify-center text-[11px] md:text-[13px] lg:text-base;
+    }
+    .datepicker-grid span.focused {
+        @apply bg-primary text-white
+    }
+    .datepicker-controls {
+        @apply relative h-10;
+    }
+    .datepicker-controls button.prev-btn {
+    @apply absolute right-[59px];
+    }
+    .datepicker-controls button.next-btn {
+        @apply absolute right-0;
+    }
+    .datepicker-controls button {
+    @apply w-[39px] h-[39px] text-center rounded-[100%] bg-primary;
+    }
+    .datepicker-controls button svg {
+        @apply !text-white; 
+    }
+    .datepicker-controls button.view-switch {
+        @apply text-primary !w-auto absolute text-s md:text-[17px] lg:text-lg !left-0 !bg-transparent;
+    }    
 }   
 
 html, body {
