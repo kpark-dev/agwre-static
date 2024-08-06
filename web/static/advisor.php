@@ -5,7 +5,7 @@ require('includes/header.php');
 <div class="main-holder">
   <main class="main-content">
     <!-- step 1 -->
-    <div class="w-full min-h-[100vh] flex justify-center items-center">
+    <div class="w-full min-h-[calc(100vh_-_59px)] md:min-h-[calc(100vh_-_104px)] xxl:min-h-[100vh] flex justify-center items-center">
       <div class="row !px-0 md:!py-[116px] lg:!py-20 ">
         <div class="fullwidth-col">
           <div class="m-auto max-w-[637px] w-full md:shadow-[0px_3px_15px_rgba(14,32,44,0.13_)] rounded-[10px] md:bg-[#f8f8f9] pt-[50px] md:pt-[76px] pb-[53px] px-5 md:px-10">
@@ -24,7 +24,7 @@ require('includes/header.php');
       </div>
     </div>
     <!-- step 2 -->
-    <div class="w-full min-h-[100vh] flex justify-center items-center">
+    <div class="w-full min-h-[calc(100vh_-_59px)] md:min-h-[calc(100vh_-_104px)] xxl:min-h-[100vh] flex justify-center items-center">
       <div class="row !px-0 md:!py-[116px] lg:!py-20 ">
         <div class="fullwidth-col">
           <div class="m-auto max-w-[637px] w-full md:shadow-[0px_3px_15px_rgba(14,32,44,0.13_)] rounded-[10px] md:bg-[#f8f8f9] pt-[50px] md:pt-[76px] pb-[53px] px-5 md:px-10">
@@ -91,7 +91,7 @@ require('includes/header.php');
       </div>
     </div>
     <!-- step 3 -->
-    <div class="w-full min-h-[100vh] flex justify-center items-center">
+    <div class="w-full min-h-[calc(100vh_-_59px)] md:min-h-[calc(100vh_-_104px)] xxl:min-h-[100vh] flex justify-center items-center">
       <div class="row !px-0 md:!py-[116px] lg:!py-20 ">
         <div class="fullwidth-col">
           <div class="m-auto max-w-[637px] w-full md:shadow-[0px_3px_15px_rgba(14,32,44,0.13_)] rounded-[10px] md:bg-[#f8f8f9] pt-[50px] md:pt-[76px] pb-[53px] px-5 md:px-10">

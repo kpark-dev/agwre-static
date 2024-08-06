@@ -243,6 +243,12 @@
     .datepicker-controls button.view-switch {
         @apply text-primary !w-auto absolute text-s md:text-[17px] lg:text-lg !left-0 !bg-transparent;
     }    
+    .optionItem {
+        @apply bg-[#f8f8f9] border text-primary border-solid border-[#707070] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[50px] lg:h-[65px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .optionItem.active {
+        @apply bg-primary text-white border-primary;
+    }
 }   
 
 html, body {
