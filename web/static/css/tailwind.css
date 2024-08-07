@@ -248,6 +248,12 @@
     }
     .optionItem.active {
         @apply bg-primary text-white border-primary;
+    } 
+    .optionItem2 {
+        @apply bg-[#b9c5d1] border text-white border-solid border-[#b9c5d1] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .optionItem2.active {
+        @apply bg-primary text-white border-primary;
     }
     .chosen-container {
         @apply max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0 ;
