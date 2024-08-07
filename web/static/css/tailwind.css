@@ -249,6 +249,28 @@
     .optionItem.active {
         @apply bg-primary text-white border-primary;
     }
+    .chosen-container {
+        @apply max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0 ;
+    }
+    .chosen-container-single .chosen-single {
+        @apply max-w-[335px];
+    }
+    .chosen-container-single .chosen-single span {
+        @apply px-3 py-1;
+    } 
+    .chosen-container.chosen-with-drop .chosen-drop {
+        @apply !border-0 bg-[#f8f8f9];
+    }
+    .chosen-container .chosen-results li.highlighted {
+        @apply !text-primary font-bold;
+    }
+    .chosen-container-single .chosen-single div b {
+        @apply relative after:content-["⌄"] after:absolute after:text-[25px] after:text-primary after:z-[11111] after:block after:right-0 after:-top-0.5 transition-all duration-[0.2s] ease-[ease-in] z-[0];
+    }
+
+    .chosen-container.chosen-container-active .chosen-single div b {
+        @apply after:rotate-180 transition-all duration-[0.2s] ease-[ease-in];
+    } 
 }   
 
 html, body {
@@ -345,6 +367,45 @@ html, body {
     background: transparent;
     font-size: 13px;
 }
+.ui-widget.ui-widget-content {
+    border: none;
+    background: #e3e3e3;
+    height: 21px;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 13px;
+    height: 67px;
+    border: 0 !important;
+    cursor: default;
+    top: -100% !important;
+    touch-action: none;
+    background: #b9c5d1 !important;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    border: 0 !important;
+    outline: 0 !important;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+    background: #dfe6ee;
+    background: linear-gradient(90deg, #dfe6ee 0.00%, #0e202c 100.00%);
+}
+.ui-slider-horizontal .ui-slider-handle .value {
+    width: 100%;
+    position: absolute;
+    bottom: -50%;
+    min-width: 100px;
+    left: -141%;
+    color: #0E202C;
+    font-size: 14px;
+    font-weight: 500;
+}
 @media only screen and (max-width: 1023px) {
     .accordion-holder {
         width: 100%;
@@ -389,4 +450,3 @@ html, body {
         -webkit-text-fill-color: transparent;
     }
 }
- 

@@ -1120,31 +1120,22 @@
         };
 
         //Range Slider
-        var rangeSlider = function (range, rangesValues, rangeType, step) {
-            var $range = $(range);
-            var $from = $range.parent().find('.slider-from');
-            var $to = $range.parent().find('.slider-to');
-            var $rangeValues = $range.parents('.filter-option-range').find('.range-values');
-            if ($range.length) {
-                // var rangeType = rangeType == 'price' ? ['$', 'K'] : ['', rangeType];
-                var rangeType = $range.data('range-types'),
-                    rangesValues = $range.data('ranges');
-                $range.slider({
-                    range: true,
-                    min: rangesValues[0],
-                    max: rangesValues[1],
-                    step: $range.data('step') ? $range.data('step') : step,
-                    values: rangesValues,
-                    change: function (event, ui) {
-                        $from.html(rangeType[0] + ui.values[0] + rangeType[1]);
-                        $to.html(rangeType[0] + ui.values[1] + rangeType[1]);
-                        $rangeValues.val(rangeType[0] + ui.values[0] + rangeType[1] + " - " + rangeType[0] + ui.values[1] + rangeType[1]);
+        var rangeSlider = function (range) {
+            if ($(range).length) {
+                $(range).slider({
+                    range: "min",
+                    min: 1,
+                    max: 30,
+                    value: 5,
+                    create: function( event, ui ) {
+                      $(range).parent('.slider-wrapper').find('.ui-slider-handle').append("<span class='value'></span>");
+                      $(range).parent('.slider-wrapper').find('.value').html('5 years');
+                      
+                    },
+                    slide: function( event, ui ) {
+                       $(range).parent('.slider-wrapper').find('.value').html(ui.value + ' years');
                     }
                 });
-                $from.html(rangeType[0] + rangesValues[0] + rangeType[1]);
-                $to.html(rangeType[0] + rangesValues[1] + rangeType[1]);
-                $rangeValues.val(rangeType[0] + $range.slider("values", 0) + rangeType[1] + " - " + rangeType[0] + $range.slider("values", 1) + rangeType[1]);
-
             }
         };
 
@@ -1875,70 +1866,6 @@
             });
         }
 
-        //Range Slider
-        var rangeSlider = function (range, rangesValues, rangeType, step) {
-            var $range = $(range);
-            var $from = $range.parent().find('.slider-from');
-            var $to = $range.parent().find('.slider-to');
-            var $rangeValues = $range.parents('.filter-option-range').find('.range-values');
-            if ($range.length) {
-                // var rangeType = rangeType == 'price' ? ['$', 'K'] : ['', rangeType];
-                var rangeType = $range.data('range-types'), rangesValues = $range.data('ranges');
-                $range.slider({
-                    range: true,
-                    min: rangesValues[0],
-                    max: rangesValues[1],
-                    step: $range.data('step') ? $range.data('step') : step,
-                    values: rangesValues,
-                    slide: function (event, ui) {
-
-                        var temp_from_val = ui.values[0];
-                        var temp_from_val_type = rangeType[1];
-                        var temp_to_val = ui.values[1];
-                        var temp_to_val_type = rangeType[1];
-
-                        if (temp_from_val >= 1000) {
-                            temp_from_val = temp_from_val / 1000;
-                            temp_from_val_type = 'M';
-                        }
-
-                        if (temp_to_val >= 1000) {
-                            temp_to_val = temp_to_val / 1000;
-                            temp_to_val_type = 'M';
-                        }
-
-                        $from.html(rangeType[0] + ui.values[0] + rangeType[1]);
-                        $to.html(rangeType[0] + ui.values[1] + rangeType[1]);
-                        $rangeValues.val(rangeType[0] + temp_from_val + temp_from_val_type + " - " + rangeType[0] + temp_to_val + temp_to_val_type);
-                    },
-                    change: function (event, ui) {
-                        var temp_from_val = ui.values[0];
-                        var temp_from_val_type = rangeType[1];
-                        var temp_to_val = ui.values[1];
-                        var temp_to_val_type = rangeType[1];
-
-                        if (temp_from_val >= 1000) {
-                            temp_from_val = temp_from_val / 1000;
-                            temp_from_val_type = 'M';
-                        }
-
-                        if (temp_to_val >= 1000) {
-                            temp_to_val = temp_to_val / 1000;
-                            temp_to_val_type = 'M';
-                        }
-
-                        $from.html(rangeType[0] + ui.values[0] + rangeType[1]);
-                        $to.html(rangeType[0] + ui.values[1] + rangeType[1]);
-                        $rangeValues.val(rangeType[0] + temp_from_val + temp_from_val_type + " - " + rangeType[0] + temp_to_val + temp_to_val_type);
-                    }
-                });
-                $from.html(rangeType[0] + rangesValues[0] + rangeType[1]);
-                $to.html(rangeType[0] + rangesValues[1] + rangeType[1]);
-                $rangeValues.val(rangeType[0] + $range.slider("values", 0) + rangeType[1] + " - " + rangeType[0] + $range.slider("values", 1) + rangeType[1]);
-
-            }
-        };
-
         var initStickyFilter = function () {
             var filter = document.getElementById("sticky-filter");
             if (filter) {
@@ -2166,20 +2093,7 @@
                 uniteGallery("#video-gallery");
                 uniteGallery("#video-gallery-1");
                 isotopeInit('.isotope-items');
-                rangeSlider('#slider-house-size-range', [120, 300], 'm', 10);
-                rangeSlider('#slider-block-width-range', [8, 34], 'm', 2);
-                rangeSlider('#slider-block-depth-range', [8, 34], 'm', 2);
-                rangeSlider('#slider-price-range', [120, 240], 'price', 10);
-                rangeSlider('#slider-price-range-tablet', [120, 240], 'price', 10);
-                rangeSlider('#slider-house-size-range-tablet', [120, 300], 'm', 10);
-                rangeSlider('#slider-house-size-range-mobile', [120, 300], 'm', 10);
-                rangeSlider('#slider-block-width-range-tablet', [8, 34], 'm', 2);
-                rangeSlider('#slider-block-width-range-mobile', [8, 34], 'm', 2);
-                rangeSlider('#slider-block-depth-range-tablet', [8, 34], 'm', 2);
-                rangeSlider('#slider-block-depth-range-mobile', [8, 34], 'm', 2);
-                rangeSlider('#slider-price-range-mobile', [120, 240], 'price', 10);
-
-                $('.display-centre-gallery').each((index, element) => uniteGallery('#' + element.id));
+                rangeSlider('#slider-year-range');
             }
         }
 
