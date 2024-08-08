@@ -31,221 +31,11 @@
 
         var windowLoad = function () {
 
-            if ($('.homepage-video-overlay').length) {
-                setTimeout(function () {
-                    $('.homepage-video-overlay').fadeOut(600);
-                }, 5000);
-            }
-
-            if (window.innerWidth > 767) {
-                $('.our-partner-content').matchHeight({
-                    byRow: true
-                });
-                $('.facade-address').matchHeight({
-                    byRow: false
-                });
-                $('.facade-title').matchHeight({
-                    byRow: false
-                });
-                $('.virtualtour-address').matchHeight({
-                    byRow: false
-                });
-                $('.virtualtour-title').matchHeight({
-                    byRow: false
-                });
-                $('.office-location').matchHeight({
-                    byRow: false
-                });
-                $('.mhb').matchHeight({
-                    byRow: false
-                });
-                $('.news-item .image-holder').matchHeight({
-                    byRow: true
-                });
-                $('.news-item .details .title').matchHeight({
-                    byRow: true
-                });
-                $('.news-item .details .title').matchHeight({
-                    byRow: true
-                });
-            }
-
-            $('.news-item .title').matchHeight({
-                byRow: true,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-
-            const homedesignslisttabsfloorplantabcontenttabcontent =
-                $('.home-designs-list__tabs .floorplan-tab-content .tab-content');
-            if (homedesignslisttabsfloorplantabcontenttabcontent.length) {
-                homedesignslisttabsfloorplantabcontenttabcontent.matchHeight({
-                    byRow: false,
-                    property: 'height',
-                    target: null,
-                    remove: false
-                });
-            }
-            const homedesignslisttabs = $('.home-designs-list__tabs');
-            if (homedesignslisttabs.length) {
-                homedesignslisttabs.matchHeight({
-                    byRow: false,
-                    property: 'height',
-                    target: null,
-                    remove: false
-                });
-            }
-
-            $('.home-designs-list__item .home-designs-list__content .name-holder').matchHeight({
-                byRow: true,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-
-            $('.home-designs-list__item .hal__address').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-
-            $('.display-centres-list-item .name').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.display-centres-list-item .info').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.display-centres-list-item .address-hours').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-
-            $('.display-centres-list-item .details-holder').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.display-homes-item .details-holder').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-
-            $('.display-homes-item .details-holder .info').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.display-homes-item .details-holder .address-hours').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-
-            if (window.innerWidth < 768) {
-                const $closeMapPreview = $('.close-map-preview');
-                if ($closeMapPreview.length) {
-                    $closeMapPreview.html('Open map').addClass('active');
-                    var mapBlock = $('.fullwidth-map-block');
-                    mapBlock.attr('style', 'display: none;');
-                }
-            }
-
-            if (window.innerWidth > 767) {
-                $('.blog-list .blog-list-item').matchHeight({
-                    byRow: true
-                });
-            }
-
-
-            $('.favourites__tabs .floorplan-svg').matchHeight({
-                byRow: true,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.favourites__tabs .room-demensions-block').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.favourites__tabs .block-demensions-block').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.favourites__tabs .floorplan-demensions-block').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
-            $('.home-designs-list__item .hal__address').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
         };
 
         var windowScroll = function () {
             $(window).on('scroll', function () {
-                initStickyFilter();
-                initStickyHeader();
 
-                var scrollPositionCta = window.scrollY;
-                var ctaContainer = $('.floatingCta');
-                if (ctaContainer.length) {
-                    var showCtaContainer = document.getElementById('showFloatingCta');
-
-                    if (scrollPositionCta >= showCtaContainer.offsetTop) {
-                        ctaContainer.addClass("active");
-                    } else {
-                        ctaContainer.removeClass("active");
-                    }
-                }
-
-                var scrollPosition = window.scrollY;
-                var scrollPosition1 = window.scrollY;
-                var bgChangeContainer = document.querySelector(
-                    "#change-bg-on-scroll"
-                );
-                if (bgChangeContainer !== null) {
-                    var bgChangeContainerPosition = bgChangeContainer.offsetTop;
-                    scrollPosition = window.scrollY;
-                    if (scrollPosition >= bgChangeContainerPosition) {
-                        bgChangeContainer.classList.add("dark-mode");
-                    } else {
-                        bgChangeContainer.classList.remove("dark-mode");
-                    }
-                }
-
-                var revertbgChangeContainer = document.querySelector(
-                    "#revert-bg-change"
-                );
-                if (revertbgChangeContainer !== null) {
-                    var revertbgChangeContainerPosition = revertbgChangeContainer.offsetTop;
-                    scrollPosition1 = window.scrollY;
-                    if (scrollPosition1 >= revertbgChangeContainerPosition) {
-                        bgChangeContainer.classList.remove("dark-mode");
-                    }
-                }
             })
         }
 
@@ -272,17 +62,17 @@
             });
         }
 
-        var sameHeight = function (elem) {
-            $(elem).matchHeight({
-                byRow: false
-            });
-        };
+        // var sameHeight = function (elem) {
+        //     $(elem).matchHeight({
+        //         byRow: false
+        //     });
+        // };
 
-        var sameHeightByRow = function (elem) {
-            $(elem).matchHeight({
-                byRow: true
-            });
-        };
+        // var sameHeightByRow = function (elem) {
+        //     $(elem).matchHeight({
+        //         byRow: true
+        //     });
+        // };
 
         var modalFade = function (elem, callback, json) {
             const $elem = $(elem);
@@ -1127,13 +917,13 @@
                     min: 1,
                     max: 30,
                     value: 5,
-                    create: function( event, ui ) {
-                      $(range).parent('.slider-wrapper').find('.ui-slider-handle').append("<span class='value'></span>");
-                      $(range).parent('.slider-wrapper').find('.value').html('5 years');
-                      
+                    create: function (event, ui) {
+                        $(range).parent('.slider-wrapper').find('.ui-slider-handle').append("<span class='value'></span>");
+                        $(range).parent('.slider-wrapper').find('.value').html('5 years');
+
                     },
-                    slide: function( event, ui ) {
-                       $(range).parent('.slider-wrapper').find('.value').html(ui.value + ' years');
+                    slide: function (event, ui) {
+                        $(range).parent('.slider-wrapper').find('.value').html(ui.value + ' years');
                     }
                 });
             }
@@ -1145,15 +935,48 @@
                     min: 1,
                     max: 100,
                     value: 80,
-                    create: function( event, ui ) {
-                    //   $(range).parent('.slider-wrapper').find('.ui-slider-handle').append("<span class='value'></span>");
-                    //   $(range).parent('.slider-wrapper').find('.value').html('5 years');
-                      
+                    create: function (event, ui) {
+                        //   $(range).parent('.slider-wrapper').find('.ui-slider-handle').append("<span class='value'></span>");
+                        //   $(range).parent('.slider-wrapper').find('.value').html('5 years');
+
                     },
-                    slide: function( event, ui ) {
-                    //    $(range).parent('.slider-wrapper').find('.value').html(ui.value + ' years');
+                    slide: function (event, ui) {
+                        //    $(range).parent('.slider-wrapper').find('.value').html(ui.value + ' years');
                     }
                 });
+            }
+        };
+
+        var initDonutChart = function (chart) {
+            if ($("#donutChart").length) {
+                var options = {
+                    animationEnabled: true,
+                    title: {
+                        text: ""
+                    },
+                    data: [{
+                        type: "doughnut",
+                        innerRadius: "90%",
+                        // showInLegend: true,
+                        // legendText: "{label}",
+                        // indexLabel: "{label}: #percent%",
+                        dataPoints: [
+                            {
+                                label: "", y: 500,
+                                color: "#B9C5D1"
+                            },
+                            {
+                                label: "", y: 60,
+                                color: "#0E202C"
+                            },
+                            {
+                                label: "", y: 30,
+                                color: "#0e202c66"
+                            }
+                        ]
+                    }]
+                };
+                $(chart).CanvasJSChart(options);
             }
         };
 
@@ -1498,18 +1321,6 @@
                             draggable: true,
                             // dragSize: dragSize
                         }
-                    });
-                    $('.home-designs-list__tabs .floorplan-tab-content .tab-content').matchHeight({
-                        byRow: false,
-                        property: 'height',
-                        target: null,
-                        remove: false
-                    });
-                    $('.home-designs-list__tabs').matchHeight({
-                        byRow: false,
-                        property: 'height',
-                        target: null,
-                        remove: false
                     });
                     // initFacadeSlider();
                 });
@@ -1876,12 +1687,6 @@
                 }());
             });
 
-            $('.favourites__tabs .floorplan-tab-content .tab-content .facade-image').matchHeight({
-                byRow: false,
-                property: 'height',
-                target: null,
-                remove: false
-            });
         }
 
         var initStickyFilter = function () {
@@ -2080,8 +1885,8 @@
                 onWindowResize();
                 clickEvents();
                 chosenSelect('.chosen-select');
-                sameHeight('.mh');
-                sameHeightByRow('.mhbr');
+                // sameHeight('.mh');
+                // sameHeightByRow('.mhbr');
                 initArticleSlider();
                 initTestimonialSlider();
                 initExploreHomesSlider();
@@ -2113,6 +1918,7 @@
                 isotopeInit('.isotope-items');
                 rangeSlider('#slider-year-range');
                 rangeSliderNoVal('#slider-affordability-range');
+                initDonutChart('#donutChart');
             }
         }
 

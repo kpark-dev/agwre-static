@@ -255,6 +255,12 @@
     .optionItem2.active {
         @apply bg-primary text-white border-primary;
     }
+    .fullwidthChosen .chosen-container {
+        @apply !max-w-[unset];
+    }
+    .fullwidthChosen .chosen-container-single .chosen-single{
+        @apply !max-w-[unset];
+    }
     .chosen-container {
         @apply max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0 ;
     }
@@ -277,6 +283,12 @@
     .chosen-container.chosen-container-active .chosen-single div b {
         @apply after:rotate-180 transition-all duration-[0.2s] ease-[ease-in];
     } 
+    #donutChart a.canvasjs-chart-credit {
+        @apply !hidden;
+    }
+    div#donutChart {
+        @apply lg:ml-[-50px] mt-10 lg:mt-5;
+    }
 }   
 
 html, body {
