@@ -1138,6 +1138,24 @@
                 });
             }
         };
+        var rangeSliderNoVal = function (range) {
+            if ($(range).length) {
+                $(range).slider({
+                    range: "min",
+                    min: 1,
+                    max: 100,
+                    value: 80,
+                    create: function( event, ui ) {
+                    //   $(range).parent('.slider-wrapper').find('.ui-slider-handle').append("<span class='value'></span>");
+                    //   $(range).parent('.slider-wrapper').find('.value').html('5 years');
+                      
+                    },
+                    slide: function( event, ui ) {
+                    //    $(range).parent('.slider-wrapper').find('.value').html(ui.value + ' years');
+                    }
+                });
+            }
+        };
 
         //Unite
         var uniteGallery = function (id) {
@@ -2094,6 +2112,7 @@
                 uniteGallery("#video-gallery-1");
                 isotopeInit('.isotope-items');
                 rangeSlider('#slider-year-range');
+                rangeSliderNoVal('#slider-affordability-range');
             }
         }
 
