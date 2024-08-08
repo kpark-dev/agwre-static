@@ -20,7 +20,7 @@ require('includes/header.php');
                   <div class="w-full flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
                     <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">What’s your annual salary/wages?</p>
                     <input type="text" class="max-w-[unset] lg:max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
-                  </div>
+                  </div> 
                   <div class="w-full flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
                     <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">What’s the second applicant’s annual salary/wages? </p>
                     <input type="text" class="max-w-[unset] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
