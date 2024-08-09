@@ -27,6 +27,40 @@ require('includes/header.php');
                 </div>
               </div>
               <div class="w-full mx-auto max-w-[679px]">
+                <div class="priceRangeBlock relative pt-[66px]">
+                  <div class="flex flex-row items-center w-full justify-around absolute top-0 inset-x-0">
+                    <div class="flex flex-col gap-2.5 items-center mb-0">
+                      <div class="w-[15px] h-[15px] bg-[#0e202c]">&nbsp;</div>
+                      <p class="tracking-[2px] text-xxs md:text-xs mb-0">$200,000</p>
+                    </div>
+                    <div class="flex flex-col gap-2.5 items-center mb-0">
+                      <div class="w-[15px] h-[15px] bg-[#B9C5D1]">&nbsp;</div>
+                      <p class="tracking-[2px] text-xxs md:text-xs mb-0">$2,000,000</p>
+                    </div>
+                    <div class="flex flex-col gap-2.5 items-center mb-0">
+                      <div class="w-[15px] h-[15px] bg-[#0e202c66]">&nbsp;</div>
+                      <p class="tracking-[2px] text-xxs md:text-xs mb-0">$3,000,000</p>
+                    </div>
+                    <div class="flex flex-col gap-2.5 items-center mb-0">
+                      <div class="w-[15px] h-[15px] bg-[#DFE6EE]">&nbsp;</div>
+                      <p class="tracking-[2px] text-xxs md:text-xs mb-0">$3,000,000</p>
+                    </div>
+                  </div>
+                  <div class="relative">
+                    <div class="w-full flex flex-row justify-evenly absolute top-[-10px] lg:top-[-23px] inset-x-0">
+                      <div class="shadow-[0px_3px_15px_rgba(0,0,0,0.3_)] w-[6px] lg:w-[13px] h-[30px] lg:h-[67px] rounded-[10px] bg-[#b9c5d1]">&nbsp;</div>
+                      <div class="shadow-[0px_3px_15px_rgba(0,0,0,0.3_)] w-[6px] lg:w-[13px] h-[30px] lg:h-[67px] rounded-[10px] bg-[#b9c5d1]">&nbsp;</div>
+                      <div class="shadow-[0px_3px_15px_rgba(0,0,0,0.3_)] w-[6px] lg:w-[13px] h-[30px] lg:h-[67px] rounded-[10px] bg-[#b9c5d1]">&nbsp;</div>
+                    </div>
+                    <div class="w-full h-[10px] lg:h-[21px] rounded-[5px] bg-[#e3e3e3]">&nbsp;</div>
+                  </div>
+                  <div class="w-full flex justify-evenly mt-10 ml-[-4%] md:ml-[-14%]">
+                    <p class="tracking-[2px] text-xxs md:text-xs mb-0">0</p>
+                    <p class="tracking-[2px] text-xxs md:text-xs mb-0">$200,000</p>
+                    <p class="tracking-[2px] text-xxs md:text-xs mb-0">$2,000,000</p>
+                    <p class="tracking-[2px] text-xxs md:text-xs mb-0">$3,000,000</p>
+                  </div>
+                </div>
                 <div class="flex flex-col gap-11 lg:gap-8 items-center lg:items-start pt-[88px] md:pt-[72px] lg:pt-[82px]">
                   <div class="flex gap-[38px] lg:gap-[50px] items-center mb-0">
                     <div class="w-[15px] h-[15px] bg-[#0e202c]">&nbsp;</div>
