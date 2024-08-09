@@ -54,8 +54,8 @@ require('includes/header.php');
                     </div>
                     <div class="w-full h-[10px] lg:h-[21px] rounded-[5px] bg-[#e3e3e3]">&nbsp;</div>
                   </div>
-                  <div class="w-full flex justify-evenly mt-10 ml-[-4%] md:ml-[-14%]">
-                    <p class="tracking-[2px] text-xxs md:text-xs mb-0">0</p>
+                  <div class="w-full flex justify-evenly mt-10">
+                    <p class="tracking-[2px] text-xxs md:text-xs mb-0 absolute left-0">0</p>
                     <p class="tracking-[2px] text-xxs md:text-xs mb-0">$200,000</p>
                     <p class="tracking-[2px] text-xxs md:text-xs mb-0">$2,000,000</p>
                     <p class="tracking-[2px] text-xxs md:text-xs mb-0">$3,000,000</p>
