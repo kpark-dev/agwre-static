@@ -255,6 +255,12 @@
     .optionItem2.active {
         @apply bg-primary text-white border-primary;
     }
+    .btnLight {
+        @apply bg-[#b9c5d1] border text-white border-solid border-[#b9c5d1] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .btnSolid {
+        @apply bg-primary border-primary border text-white border-solid rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
     .fullwidthChosen .chosen-container {
         @apply !max-w-[unset];
     }

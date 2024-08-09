@@ -104,7 +104,7 @@ require('includes/header.php');
       </div>
     </div>
     <!-- not the result -->
-    <div class="hidden md:block row py-[67px] md:py-[137px]">
+    <div class=" row py-[67px] md:py-[137px]">
       <div class="fullwidth-col">
         <div class="w-full max-w-[1007px] m-auto">
           <h2 class="text-center text-[40px] lg:text-[60px] mb-[55px] lg:mb-[85px] font-cirka">Not the result you expected to see?</h2>
