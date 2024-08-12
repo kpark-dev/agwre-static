@@ -979,6 +979,42 @@
                 $(chart).CanvasJSChart(options);
             }
         };
+        var initDonutChart2 = function (chart) {
+            if ($("#donutChart2").length) {
+                var options = {
+                    animationEnabled: true,
+                    title: {
+                        text: ""
+                    },
+                    data: [{
+                        type: "doughnut",
+                        innerRadius: "90%",
+                        // showInLegend: true,
+                        // legendText: "{label}",
+                        // indexLabel: "{label}: #percent%",
+                        dataPoints: [
+                            {
+                                label: "", y: 500,
+                                color: "#B9C5D1"
+                            },
+                            {
+                                label: "", y: 60,
+                                color: "#0E202C"
+                            },
+                            {
+                                label: "", y: 30,
+                                color: "#0e202c66"
+                            },
+                            {
+                                label: "", y: 30,
+                                color: "#9fa6a9"
+                            }
+                        ]
+                    }]
+                };
+                $(chart).CanvasJSChart(options);
+            }
+        };
 
         //Unite
         var uniteGallery = function (id) {
@@ -1919,6 +1955,7 @@
                 rangeSlider('#slider-year-range');
                 rangeSliderNoVal('#slider-affordability-range');
                 initDonutChart('#donutChart');
+                initDonutChart2('#donutChart2');
             }
         }
 

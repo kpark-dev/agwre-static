@@ -4,7 +4,91 @@ require('includes/header.php');
 
 <div class="main-holder">
   <main class="main-content">
+    <!-- chart -->
+    <div class="row py-[90px] md:py-[130px]">
+      <div class="fullwidth-col">
+        <div class="max-w-[626px] m-auto">
+          <div class="relative w-full m-auto max-w-[250px] md:max-w-[unset]">
+            <div class="w-auto absolute z-[1] left-[90px] md:left-[88px] lg:left-[43px] top-[134px] md:top-[145px] lg:top-[122px] text-center m-auto max-w-[250px] md:max-w-[unset]">
+              <p class="mb-0 text-[25px] md:text-[34px] lg:text-[38px] font-semibold">$6,070</p>
+              <p class="mb-0 text-[7px] md:text-[9px] lg:text-xxs tracking-[2px]">Per month</p>
+            </div>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-[74px] md:gap-[96px] m-auto max-w-[250px] md:max-w-[unset]">
+              <div id="donutChart" class="h-[230px] md:h-[270px] w-full"></div>
+              <div class="flex flex-col gap-11 items-center md:items-start w-full">
+                <div class="flex gap-[17px] items-center mb-0">
+                  <div class="w-[15px] h-[15px] bg-[#b9c5d1]">&nbsp;</div>
+                  <p class="text-xxs md:text-xs mb-0">Prıncıpal and ınterest</p>
+                  <p class="text-mb md:text-lg mb-0 ml-[15px] font-semibold">$5,000</p>
+                </div>
+                <div class="flex gap-[17px] items-center mb-0">
+                  <div class="w-[15px] h-[15px] bg-[#0E202C]">&nbsp;</div>
+                  <p class="text-xxs md:text-xs mb-0">Property tax</p>
+                  <p class="text-mb md:text-lg mb-0 ml-[15px] font-semibold">$450</p>
+                </div>
+                <div class="flex gap-[17px] items-center mb-0">
+                  <div class="w-[15px] h-[15px] bg-[#0e202c66]">&nbsp;</div>
+                  <p class="text-xxs md:text-xs mb-0">Home Insurance</p>
+                  <p class="text-mb md:text-lg mb-0 ml-[15px] font-semibold">$400</p>
+                </div>
+                <div class="flex gap-[17px] items-center mb-0">
+                  <div class="w-[15px] h-[15px] bg-[#9FA6A9]">&nbsp;</div>
+                  <p class="text-xxs md:text-xs mb-0">Strata fees </p>
+                  <p class="text-mb md:text-lg mb-0 ml-[15px] font-semibold">$400</p>
+                </div>
+              </div>
+            </div>
+            <div class="m-auto block lg:hidden w-full max-w-[484px] lg:max-w-[unset] pt-[73px] md:pt-[100px]">
+              <div class="flex w-full h-full justify-center items-center">
+                <a href="#" class="flex flex-col max-w-[131px] lg:max-w-[161px] tracking-[2px] gap-[17px] lg:gap-[38px] items-center">
+                  <div class="max-w-[47px] lg:max-w-[81px]">
+                    <img src="images/plus-primary.svg" class="w-full object-contain" loading="lazy" />
+                  </div>
+                  <p class="text-[11px] lg:text-s mb-0">Advanced optıons</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- insights -->
+    <div class="row py-[90px] md:py-[130px]">
+      <div class="fullwidth-col">
+        <div class="max-w-[1106px] m-auto pb-[64px] lg:pb-[101px] flex flex-col md:flex-row items-center md:items-end gap-[5px] lg:gap-[78px] justify-center md:justify-start"> <img src="images/market.svg" class="m-auto max-w-[51px] md:max-w-[64px] lg:max-w-[103px] block md:hidden" alt="market watch" loading="lazy" />
+          <p class="mb-0 text-[30px] md:text-[40px] lg:text-[60px] font-cirka leading-[80%]">Insights</p>
+          <p class="mb-0 text-xxs lg:text-lg max-w-[100px] lg:max-w-[unset]">Talk to advisor</p>
+        </div>
+        <div class="w-full flex items-center justify-center md:justify-between flex-wrap max-w-[1106px] m-auto gap-y-[39px] gap-x-[53px] md:gap-x-0 md:gap-y-0">
+          <div class="flex flex-col gap-[15px] items-center justify-center order-1 md:order-1 max-w-[140px] text-center">
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">This home is one of </p>
+            <p class="mb-0 text-[15px] lg:text-[26px]">123</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal flex items-center gap-2"><span>properties for sale in Riley Park
+              </span></p>
+          </div>
+          <div class="w-[1px] h-10 bg-primary hidden md:block order-2">&nbsp;</div>
+          <div class="flex flex-col gap-[15px] items-center justify-center order-5 md:order-3 max-w-[140px] text-center">
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Market time </p>
+            <p class="mb-0 text-[15px] lg:text-[26px]">35</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal flex items-center gap-2"><span>The median days for the properties in this area on the market
 
+              </span></p>
+          </div>
+          <div class="w-[1px] h-10 bg-primary hidden md:block  order-4">&nbsp;</div>
+          <div class="flex flex-col gap-[15px] items-center justify-center order-3 md:order-5 max-w-[140px] text-center">
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">This home list price is </p>
+            <p class="mb-0 text-[15px] lg:text-[26px]">16% </p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">below the Riley Park median </p>
+          </div>
+          <div class="w-[1px] h-10 bg-primary hidden md:block  order-6">&nbsp;</div>
+          <div class="flex flex-col gap-[15px] items-center justify-center order-2 md:order-7 max-w-[140px] text-center">
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">This home is </p>
+            <p class="mb-0 text-[15px] lg:text-[26px]">$860</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">per square foot, which is 30% below the median </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- looking for a viewing -->
     <div class="row">
       <div class="fullwidth-col">
@@ -83,35 +167,35 @@ require('includes/header.php');
         </div>
         <div class="w-full flex items-center justify-center md:justify-between flex-wrap max-w-[1106px] m-auto gap-y-[39px] gap-x-[53px] md:gap-x-0 md:gap-y-0">
           <div class="flex flex-col gap-[15px] items-center justify-center order-1 md:order-1">
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">Average sale price</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Average sale price</p>
             <p class="mb-0 text-[15px] lg:text-[26px]">$1.3M</p>
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal flex items-center gap-2"><img src="images/icons/icon-chevron-primary.svg" /><span>-15% in past 30 days
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal flex items-center gap-2"><img src="images/icons/icon-chevron-primary.svg" /><span>-15% in past 30 days
               </span></p>
           </div>
           <div class="w-[1px] h-10 bg-primary hidden md:block order-2">&nbsp;</div>
           <div class="flex flex-col gap-[15px] items-center justify-center order-5 md:order-3">
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">Sales</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Sales</p>
             <p class="mb-0 text-[15px] lg:text-[26px]">46</p>
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal flex items-center gap-2"><img src="images/icons/icon-chevron-primary.svg" class="rotate-180" /><span>+2% in past 30 days
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal flex items-center gap-2"><img src="images/icons/icon-chevron-primary.svg" class="rotate-180" /><span>+2% in past 30 days
               </span></p>
           </div>
           <div class="w-[1px] h-10 bg-primary hidden md:block  order-4">&nbsp;</div>
           <div class="flex flex-col gap-[15px] items-center justify-center order-3 md:order-5">
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">Active listings</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Active listings</p>
             <p class="mb-0 text-[15px] lg:text-[26px]">210</p>
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">June 12, 2023</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">June 12, 2023</p>
           </div>
           <div class="w-[1px] h-10 bg-primary hidden md:block  order-6">&nbsp;</div>
           <div class="flex flex-col gap-[15px] items-center justify-center order-2 md:order-7">
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">Sales-to-Listing Ratio</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Sales-to-Listing Ratio</p>
             <p class="mb-0 text-[15px] lg:text-[26px]">33%</p>
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">Seller’s Market</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Seller’s Market</p>
           </div>
           <div class="w-[1px] h-10 bg-primary hidden md:block  order-8">&nbsp;</div>
           <div class="flex flex-col gap-[15px] items-center justify-center order-4 md:order-9">
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal">Average Days on Market</p>
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">Average Days on Market</p>
             <p class="mb-0 text-[15px] lg:text-[26px]">113</p>
-            <p class="mb-0 text-xxs lg:text-s leading-[2px] md:leading-normal flex items-center gap-2"><img src="images/icons/icon-chevron-primary.svg" /><span>--34% in past 30 days
+            <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal flex items-center gap-2"><img src="images/icons/icon-chevron-primary.svg" /><span>--34% in past 30 days
               </span></p>
           </div>
         </div>
