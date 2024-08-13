@@ -4,6 +4,149 @@ require('includes/header.php');
 
 <div class="main-holder">
   <main class="main-content">
+    <!-- insights -->
+    <div class="row pb-[90px] md:pb-[130px] pt-[72px] lg:pt-[202px]">
+      <div class="fullwidth-col">
+        <div class="max-w-[1106px] m-auto">
+          <!-- desktop banner -->
+          <div class="w-full hidden md:flex gap-[39px] lg:gap-[65px] items-center">
+            <div class="z-[1] md:mr-[-150px] xxl:mr-[-268px]">
+              <p class="text-base md:text-[11px] lg:text-lg mb-0">Vancouver, BC</p>
+              <p class="text-[30px] md:text-[33px] xxl:text-[60px] mb-0 md:mb-[45px] lg:mb-[76px] min-w-[320px] xxl:min-w-[581px] font-cirka">307 Villas Maribel St,</p>
+              <p class="max-w-[unset] md:max-w-[189px] xxl:max-w-[326px] text-[#0e202c] text-[11px] md:text-[12px] xxl:text-md leading-[180%] mb-[50px] xxl:mb-[75px]">Lorem ipsum dolor sit amet consectetur. Nec nec faucibus vitae nunc nam condimentum pharetra. Mollis viverra amet aliquet risus non arcu felis a. Sed consequat tristique leo velit feugiat risus velit sed nulla. Nunc rutrum amet egestas adipiscing augue. </p>
+              <a href="#" class="text-[11px] md:text-[12px] xxl:text-md tracking-[2px]">See full detaıls</a>
+            </div>
+            <div>
+              <div class="flex gap-6">
+                <div class="min-w-[233px] xxl:min-w-[407px] max-w-[233px] xxl:max-w-[407px]">
+                  <div class="bannerCarousel carousel w-full">
+                    <div id="slide1" class="carousel-item relative w-full">
+                      <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                      <div class="absolute bottom-8 flex right-8 gap-5">
+                        <a href="#slide4" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                        <a href="#slide2" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide2" class="carousel-item relative w-full">
+                      <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                      <div class="absolute bottom-8 flex right-8 gap-5">
+                        <a href="#slide1" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                        <a href="#slide3" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide3" class="carousel-item relative w-full">
+                      <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                      <div class="absolute bottom-8 flex right-8 gap-5">
+                        <a href="#slide2" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                        <a href="#slide4" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                      </div>
+                    </div>
+                    <div id="slide4" class="carousel-item relative w-full">
+                      <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                      <div class="absolute bottom-8 flex right-8 gap-5">
+                        <a href="#slide3" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                        <a href="#slide1" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-full mt-[29px] xxl:mb-[51px] flex items-center gap-[59px] xxl:gap-[98px]">
+                    <div class="text-[27px] md:text-[29px] xxl:text-[52px] mb-0 font-semibold">$1,200,000 </div>
+                    <div class="flex gap-[24px] md:gap-[18px] lg:gap-[31px]">
+                      <div class="text-center">
+                        <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0">Beds<br />2</p>
+                      </div>
+                      <div class="text-center">
+                        <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0">Bath<br />2</p>
+                      </div>
+                      <div class="text-center">
+                        <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0 min-w-[55px] lg:min-w-[86px]">Year Built <br />2</p>
+                      </div>
+                      <div class="text-center">
+                        <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0">Sqft <br />2</p>
+                      </div>
+                      <div class="text-center">
+                        <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0 min-w-[55px] lg:min-w-[98px]">Strata fees <br />2</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="flex gap-5 flex-col min-w-[212px] xxl:min-w-[370px] max-w-[212px] xxl:max-w-[370px]">
+                  <img src="images/r-architecture-IZwmK (4).png" alt="" loading="lazy" class="w-full h-auto" />
+                  <img src="images/r-architecture-RfXkG.png" alt="" loading="lazy" class="w-full h-auto" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- mobile banner -->
+          <div class="w-full flex flex-col md:hidden">
+            <p class="text-base md:text-[11px] lg:text-lg mb-0">Vancouver, BC</p>
+            <p class="text-[30px] md:text-[33px] xxl:text-[60px] mb-0 md:mb-[45px] lg:mb-[76px] min-w-[320px] xxl:min-w-[581px] font-cirka">307 Villas Maribel St,</p>
+            <div class="flex gap-2 pt-[26px] justify-center">
+              <div class="min-w-[164px] md:min-w-[233px] xxl:min-w-[407px] max-w-[164px] md:max-w-[233px] xxl:max-w-[407px]">
+                <div class="bannerCarousel carousel w-full">
+                  <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                    <div class="absolute bottom-8 flex right-8 gap-5">
+                      <a href="#slide4" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                      <a href="#slide2" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide2" class="carousel-item relative w-full">
+                    <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                    <div class="absolute bottom-8 flex right-8 gap-5">
+                      <a href="#slide1" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                      <a href="#slide3" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide3" class="carousel-item relative w-full">
+                    <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                    <div class="absolute bottom-8 flex right-8 gap-5">
+                      <a href="#slide2" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                      <a href="#slide4" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                    </div>
+                  </div>
+                  <div id="slide4" class="carousel-item relative w-full">
+                    <img src="images/r-architecture-UypLI (3).png" class="w-full" />
+                    <div class="absolute bottom-8 flex right-8 gap-5">
+                      <a href="#slide3" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❮</a>
+                      <a href="#slide1" class="cursor-pointer rounded-[5px] bg-primary/50 text-white w-[35px] h-[35px] flex items-start justify-center leading-[35px]">❯</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full mt-[26px] xxl:mb-[51px] flex items-center gap-[59px] xxl:gap-[98px]">
+                  <div class="flex gap-[24px] md:gap-[18px] lg:gap-[31px]">
+                    <div class="text-center">
+                      <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0">Beds<br />2</p>
+                    </div>
+                    <div class="text-center">
+                      <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0">Bath<br />2</p>
+                    </div>
+                    <div class="text-center">
+                      <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0 min-w-[69px]">Year Built <br />2</p>
+                    </div>
+                    <div class="text-center">
+                      <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0">Sqft <br />2</p>
+                    </div>
+                    <div class="text-center">
+                      <p class="text-[14px] md:text-[11px] xxl:text-[20px] leading-[170%] mb-0 min-w-[69px]">Strata fees <br />2</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="flex gap-2 flex-col min-w-[149px] md:min-w-[212px] xxl:min-w-[370px] max-w-[149px] md:max-w-[212px] xxl:max-w-[370px]">
+                <img src="images/r-architecture-IZwmK (4).png" alt="" loading="lazy" class="w-full h-auto" />
+                <img src="images/r-architecture-RfXkG.png" alt="" loading="lazy" class="w-full h-auto" />
+              </div>
+            </div>
+            <p class="max-w-[unset] md:max-w-[189px] xxl:max-w-[326px] text-[#0e202c] text-[11px] md:text-[12px] xxl:text-md leading-[180%] mb-[60px] pt-[26px]">Lorem ipsum dolor sit amet consectetur. Nec nec faucibus vitae nunc nam condimentum pharetra. Mollis viverra amet aliquet risus non arcu felis a. Sed consequat tristique leo velit feugiat risus velit sed nulla. Nunc rutrum amet egestas adipiscing augue. </p>
+            <div class="flex w-full justify-between items-center">
+              <a href="#" class="text-[11px] md:text-[12px] xxl:text-md tracking-[2px]">See full detaıls</a>
+              <div class="text-[27px] md:text-[29px] xxl:text-[52px] mb-0 font-semibold">$1,200,000 </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- calculator -->
     <div class="row pt-[90px] md:pt-[130px]">
       <div class="fullwidth-col">
