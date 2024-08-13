@@ -4,6 +4,36 @@ require('includes/header.php');
 
 <div class="main-holder">
   <main class="main-content">
+    <!-- calculator -->
+    <div class="row pt-[90px] md:pt-[130px]">
+      <div class="fullwidth-col">
+        <div class="max-w-[1106px] m-auto">
+          <p class="text-[30px] md:text-[50px] lg:text-[70px] font-cirka leading-[100%] text-center mb-[92px] md:mb-[102px] lg:mb-[130px]">Mortgage <br />Payment Calculator </p>
+          <div class="w-full grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-6 lg:gap-10">
+            <div class="w-full flex flex-col items-center md:items-start">
+              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">DownPayment</p>
+              <input type="text" class="max-w-[320px] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
+            </div>
+            <div class="w-full flex flex-col items-center md:items-start">
+              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">%DownPayment</p>
+              <input type="text" class="max-w-[320px] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
+            </div>
+            <div class="w-full max-w-[320px] lg:max-w-[unset] m-auto flex flex-col items-center md:items-start fullwidthChosen">
+              <p class="max-w-[unset] lg:max-w-[367px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Loan Type</p>
+              <select class="w-full chosen-select" data-placeholder="Select Your Options">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+              </select>
+            </div>
+            <div class="w-full flex flex-col items-center md:items-start">
+              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Interest rate</p>
+              <input type="text" class="max-w-[320px] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- chart -->
     <div class="row py-[90px] md:py-[130px]">
       <div class="fullwidth-col">
@@ -85,6 +115,260 @@ require('includes/header.php');
             <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">This home is </p>
             <p class="mb-0 text-[15px] lg:text-[26px]">$860</p>
             <p class="mb-0 text-xxs lg:text-s tracking-[2px] md:leading-normal">per square foot, which is 30% below the median </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- property details -->
+    <div class="row pt-[90px] md:pt-[130px]">
+      <div class="fullwidth-col">
+        <div class="max-w-[1106px] m-auto">
+          <p class="text-[36px] md:text-[70px] lg:text-[90px] font-cirka leading-[100%] mb-[52px] md:mb-[82px] lg:mb-[133px]">Property Details</p>
+          <div class="w-full grid lg:hidden grid-cols-2 gap-10 lg:gap-[109px] mb-[88px] lg:mb-[137px]">
+            <div class="flex flex-col gap-[23px] lg:gap-[21px]">
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Status</p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Active</p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Stories</p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">2</p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Strata fees</p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$2200</p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">No of floors </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">4</p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property Type </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Residential </p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property Sub Type </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Condo</p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0"></p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0"></p>
+              </div>
+            </div>
+            <div class="flex flex-col gap-[23px] lg:gap-[21px]">
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Days on market </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">12</p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property tax </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">12.1% </p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Water Supply </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Public </p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Water Supply </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Public </p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Sold Date </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">26, May 2023 </p>
+              </div>
+              <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Sold Price </p>
+                <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$150,000 </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full flex flex-col md:flex-row gap-10 md:gap-[63px] lg:gap-[116px]">
+            <div class="max-w-[270px] lg:max-w-[358px] w-full h-full"><img src="images/r-architecture-P_0tn (2).png" class="lg:min-h-[710px] w-full h-full object-cover" /></div>
+            <div class="w-full">
+              <div class="w-full flex flex-col mb-[84px] lg:mb-[175px]">
+                <div class="w-full hidden lg:grid grid-cols-2 gap-[73px] lg:gap-[109px] mb-[88px] lg:mb-[137px]">
+                  <div class="flex flex-col gap-[23px] lg:gap-[21px]">
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Status</p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Active</p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Stories</p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">2</p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Strata fees</p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$2200</p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">No of floors </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">4</p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property Type </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Residential </p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property Sub Type </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Condo</p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0"></p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0"></p>
+                    </div>
+                  </div>
+                  <div class="flex flex-col gap-[23px] lg:gap-[21px]">
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Days on market </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">12</p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property tax </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">12.1% </p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Water Supply </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Public </p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Water Supply </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">Public </p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Sold Date </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">26, May 2023 </p>
+                    </div>
+                    <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-end">
+                      <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Sold Price </p>
+                      <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$150,000 </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-full">
+                  <p class="text-lead md:text-[30px] lg:text-[45px] mb-14 lg:mb-[87px] font-cirka">Additional Property Details</p>
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-[29px] md:mb-[23px] lg:mb-[21px]">ByLaw Restrictions</p>
+                  <p class="text-s md:text-base lg:text-lg mb-[27px] md:mb-[23px] lg:mb-[46px] font-semibold">Rentals allowed, Age restrictions, Pets allowed</p>
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-[29px] md:mb-[23px] lg:mb-[21px]">Short Term Rental Allowed?</p>
+                  <p class="text-s md:text-base lg:text-lg mb-0 font-semibold">No</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- transaction -->
+          <div class="w-full flex flex-col md:flex-row gap-[112px] lg:gap-[216px] items-start  mb-[84px] lg:mb-[175px]">
+            <div class="w-full max-w-[454px]">
+              <p class="text-lead md:text-[30px] lg:text-[45px] mb-[53px] lg:mb-[83px] font-cirka">Transaction History </p>
+              <div class="flex flex-col md:flex-row gap-[42px] lg:gap-[69px]">
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-start lg:items-end">
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-0">Sold date </p>
+                  <p class="md:min-w-[130px] text-[15px] md:text-base lg:text-lg mb-0">March 02, 2021 </p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-start lg:items-end">
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-0">Price</p>
+                  <p class="text-[15px] md:text-base lg:text-lg mb-0">$1,950,000 </p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-start lg:items-end">
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-0">Source </p>
+                  <p class="text-[15px] md:text-base lg:text-lg mb-0">REBGV </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full max-w-[324px]">
+              <p class="text-lead md:text-[30px] lg:text-[45px] mb-[53px] lg:mb-[83px] font-cirka">Parking/Storage </p>
+              <div class="flex flex-col gap-[23px] lg:gap-[21px]">
+                <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-start lg:items-end">
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-0">Parking Type </p>
+                  <p class="text-[15px] md:text-base lg:text-lg mb-0">Active</p>
+                </div>
+                <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-start lg:items-end">
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-0">Storage Space </p>
+                  <p class="text-[15px] md:text-base lg:text-lg mb-0">2</p>
+                </div>
+                <div class="flex gap-4 md:gap-9 lg:gap-[30px] items-start lg:items-end">
+                  <p class="text-xxs md:text-[11px] lg:text-xs mb-0">Number of Parking </p>
+                  <p class="text-[15px] md:text-base lg:text-lg mb-0">$2200 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tax history -->
+          <div class="w-full flex gap-10 md:gap-20 lg:gap-[172px] items-start mb-[84px] lg:mb-[175px]">
+            <div class="w-full max-w-[501px]">
+              <p class="text-lead md:text-[30px] lg:text-[45px] mb-[53px] lg:mb-[83px] font-cirka">Tax History</p>
+              <div class="flex flex-col md:flex-row gap-[42px] lg:gap-[69px] mb-10 lg:mb-[49px]">
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-end">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Year </p>
+                  <p class="md:min-w-[130px] text-[15px] md:text-base lg:text-lg mb-0">2022</p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-end">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property Taxes</p>
+                  <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$13,492 </p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-end">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Tax Assessment </p>
+                  <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$1,147,231 </p>
+                </div>
+              </div>
+              <div class="flex flex-col md:flex-row gap-[42px] lg:gap-[69px]">
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-end">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Year </p>
+                  <p class="md:min-w-[130px] text-[15px] md:text-base lg:text-lg mb-0">2022</p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-end">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Property Taxes</p>
+                  <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$13,492 </p>
+                </div>
+                <div class="flex flex-row md:flex-col gap-4 md:gap-9 lg:gap-[30px] items-end">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0">Tax Assessment </p>
+                  <p class="md:min-w-[119px] text-[15px] md:text-base lg:text-lg mb-0">$1,147,231 </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full max-w-[220px]">
+              <img src="images/r-architecture-FpuhD.png" class="lg:min-h-[415px] w-full h-full object-cover" />
+            </div>
+          </div>
+          <!-- Parking/Storage -->
+          <div class="w-full mb-[84px] lg:mb-[175px]">
+            <p class="text-lead md:text-[30px] lg:text-[45px] mb-[63px] lg:mb-[47px] font-cirka">Parking/Storage </p>
+            <div class="flex flex-col lg:flex-row w-full gap-[97px] lg:gap-10 xxl:gap-[123px] items-start lg:items-end">
+              <div class="w-full flex flex-col gap-[11px] lg:gap-4">
+                <div class="w-full flex items-end gap-4 lg:gap-5 flex-wrap">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0 pr-10 min-w-[115px]">Interior Features</p>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10 ">Air Conditioning </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Dishwasher </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Hot tub </div>
+                </div>
+                <div class="w-full flex items-end gap-4 lg:gap-5 flex-wrap">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0 pr-10 min-w-[115px]">Utilities</p>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10 ">Forced air </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10 active">Heat Pump </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Radiant </div>
+                </div>
+                <div class="w-full flex items-end gap-4 lg:gap-5 flex-wrap">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0 pr-10 min-w-[115px]">Exterior Features </p>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10 ">Concierge </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Exercise Centre </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Outdoor Pool </div>
+                </div>
+                <div class="w-full flex items-end gap-4 lg:gap-5 flex-wrap">
+                  <p class="min-w-[66px] md:min-w-[119px] text-xxs md:text-[11px] lg:text-xs mb-0 pr-10 min-w-[115px]">Site Influences </p>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Central Location </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Gated Complex </div>
+                  <div class="optionItem tracking-[2px] px-6 xxl:px-10">Shopping Nearby </div>
+                </div>
+              </div>
+              <div class="w-full max-w-[115px] lg:max-w-[157px]">
+                <div class="flex w-full h-full justify-end items-end">
+                  <a href="#" class="flex flex-col max-w-[161px] tracking-[2px] gap-[17px] lg:gap-[38px]">
+                    <div class="max-w-[47px] lg:max-w-[81px]">
+                      <img src="images/plus-primary.svg" class="w-full object-contain" loading="lazy" />
+                    </div>
+                    <p class="text-[11px] lg:text-s mb-0">View less details</p>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
