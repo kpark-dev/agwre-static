@@ -180,6 +180,121 @@
     .blogContentBlock p:last-child {
         @apply !mb-0;
     }
+    .timeList .item {
+        @apply col-span-1 bg-primary/10 rounded-[10px] flex justify-center items-center hover:bg-primary  hover:text-white cursor-pointer h-[41px] md:h-[46px] lg:h-[50px];
+    }
+    .timeList .item.active {
+        @apply hover:bg-primary hover:text-white;
+    }
+    .formBtnHollow, .formBtnSolid {
+        @apply h-[54px] md:h-[61px] flex items-center justify-center text-xs lg:text-s border-primary border-solid border rounded-[5px];
+    }
+    .formBtnHollow {
+        @apply hover:bg-primary hover:text-white bg-white text-primary;
+    }
+    .formBtnSolid {
+        @apply bg-primary text-white hover:bg-white hover:text-primary;
+    }
+    .datepicker-picker {
+        @apply w-full !p-0 !shadow-none !bg-transparent;
+    }
+    .datepicker-picker {
+    @apply w-full;
+    }
+    .datepicker-view .days {
+    @apply w-full mt-[46px];
+    }
+    .datepicker-main {
+    @apply p-0;
+    }
+    .datepicker-view {
+    @apply w-full;
+    }
+    .days-of-week {
+        @apply gap-5 !mb-[30px];
+    }
+    .days-of-week span {
+        @apply text-sm text-[#0e202c] opacity-[0.22];
+    }
+    .datepicker-grid {
+    @apply w-full gap-[26px_20px];
+    }
+    .datepicker-grid span {
+    @apply w-9 h-9 rounded-[50px] bg-primary/10 hover:bg-primary hover:text-white text-center flex items-center justify-center text-[11px] md:text-[13px] lg:text-base;
+    }
+    .datepicker-grid span.focused {
+        @apply bg-primary text-white
+    }
+    .datepicker-controls {
+        @apply relative h-10;
+    }
+    .datepicker-controls button.prev-btn {
+    @apply absolute right-[59px];
+    }
+    .datepicker-controls button.next-btn {
+        @apply absolute right-0;
+    }
+    .datepicker-controls button {
+    @apply w-[39px] h-[39px] text-center rounded-[100%] bg-primary;
+    }
+    .datepicker-controls button svg {
+        @apply !text-white; 
+    }
+    .datepicker-controls button.view-switch {
+        @apply text-primary !w-auto absolute text-s md:text-[17px] lg:text-lg !left-0 !bg-transparent;
+    }    
+    .optionItem {
+        @apply bg-[#f8f8f9] border text-primary border-solid border-[#707070] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[50px] lg:h-[65px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .optionItem.active {
+        @apply bg-primary text-white border-primary;
+    } 
+    .optionItem2 {
+        @apply bg-[#b9c5d1] border text-white border-solid border-[#b9c5d1] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .optionItem2.active {
+        @apply bg-primary text-white border-primary;
+    }
+    .btnLight {
+        @apply bg-[#b9c5d1] border text-white border-solid border-[#b9c5d1] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .btnSolid {
+        @apply bg-primary border-primary border text-white border-solid rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    }
+    .fullwidthChosen .chosen-container {
+        @apply !max-w-[unset];
+    }
+    .fullwidthChosen .chosen-container-single .chosen-single{
+        @apply !max-w-[unset];
+    }
+    .chosen-container {
+        @apply max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0 ;
+    }
+    .chosen-container-single .chosen-single {
+        @apply max-w-[335px];
+    }
+    .chosen-container-single .chosen-single span {
+        @apply px-3 py-1;
+    } 
+    .chosen-container.chosen-with-drop .chosen-drop {
+        @apply !border-0 bg-[#f8f8f9];
+    }
+    .chosen-container .chosen-results li.highlighted {
+        @apply !text-primary font-bold;
+    }
+    .chosen-container-single .chosen-single div b {
+        @apply relative after:content-["⌄"] after:absolute after:text-[25px] after:text-primary after:z-[11111] after:block after:right-0 after:-top-0.5 transition-all duration-[0.2s] ease-[ease-in] z-[0];
+    }
+
+    .chosen-container.chosen-container-active .chosen-single div b {
+        @apply after:rotate-180 transition-all duration-[0.2s] ease-[ease-in];
+    } 
+    #donutChart a.canvasjs-chart-credit {
+        @apply !hidden;
+    }
+    div#donutChart {
+        @apply lg:ml-[-50px] mt-10 lg:mt-5;
+    }
 }   
 
 html, body {
@@ -276,6 +391,45 @@ html, body {
     background: transparent;
     font-size: 13px;
 }
+.ui-widget.ui-widget-content {
+    border: none;
+    background: #e3e3e3;
+    height: 21px;
+}
+.ui-slider .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 13px;
+    height: 67px;
+    border: 0 !important;
+    cursor: default;
+    top: -100% !important;
+    touch-action: none;
+    background: #b9c5d1 !important;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    border: 0 !important;
+    outline: 0 !important;
+}
+.ui-slider .ui-slider-range {
+    position: absolute;
+    z-index: 1;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    background-position: 0 0;
+    background: #dfe6ee;
+    background: linear-gradient(90deg, #dfe6ee 0.00%, #0e202c 100.00%);
+}
+.ui-slider-horizontal .ui-slider-handle .value {
+    width: 100%;
+    position: absolute;
+    bottom: -50%;
+    min-width: 100px;
+    left: -141%;
+    color: #0E202C;
+    font-size: 14px;
+    font-weight: 500;
+}
 @media only screen and (max-width: 1023px) {
     .accordion-holder {
         width: 100%;
@@ -320,4 +474,3 @@ html, body {
         -webkit-text-fill-color: transparent;
     }
 }
- 

@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./static/**/*.{html,php,js,ts,jsx,tsx,mdx,css}"
+    "./static/**/*.{html,php,js,ts,jsx,tsx,mdx,css}",
+    "./node_modules/flowbite/**/*.js"
   ],
   variants: {
     textColor: ["hover", "group-hover"],

@@ -211,17 +211,19 @@
 </div>
 <!-- end of submenu -->
 </div>
-<script src="js/jquery.js"></script>
+<!-- <script src="js/jquery.js"></script> -->
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
 <script src="js/slick/slick.min.js"></script>
 <script src="js/jqueryui/jquery-ui.min.js"></script>
 <script src="js/chosen/chosen.mobile.js"></script>
-<script src="js/jquery.matchHeight.js"></script>
+<!-- <script src="js/jquery.matchHeight.js"></script> -->
 <script src="js/swiper-bundle.min.js"></script>
 <script src="js/unitegallery/js/unitegallery.min.js"></script>
 <script src="js/unitegallery/themes/default/ug-theme-default.js"></script>
 <script src="js/jquery.ui.touch-punch.min.js"></script>
 <script src="js/photoswipe/photoswipe.min.js"></script>
 <script src="js/photoswipe/photoswipe-ui-default.min.js"></script>
+<script src="https://cdn.canvasjs.com/jquery.canvasjs.min.js"></script>
 <script src="js/app.js"></script>
 </body>
 
