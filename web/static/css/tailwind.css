@@ -264,6 +264,9 @@
     .btnSolid {
         @apply bg-primary border-primary border text-white border-solid rounded-[5px] hover:border-primary  hover:bg-white hover:text-primary h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
     }
+    .btnSolid.disabled {
+        @apply pointer-events-none bg-[#b9c5d1] !border-[#b9c5d1] text-white;
+    }
     .fullwidthChosen .chosen-container {
         @apply !max-w-[unset];
     }

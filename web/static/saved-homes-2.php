@@ -29,7 +29,7 @@ require('includes/header.php');
             </div>
             <div class="flex flex-row-reverse md:flex-col lg:flex-row items-center md:items-end lg:items-center gap-[26px] md:gap-[37px] lg:gap-[51px] md:top-[-50px] lg:top-[unset] relative mb-0 md:mb-[-40px] lg:mb-[0]">
               <p class="text-xxs lg:text-xs mb-0 tracking-[2px]">Remove all</p>
-              <a href="#" class="btnSolid w-[113px] lg:w-[141px]">Compare</a>
+              <a href="#" class="btnSolid w-[113px] lg:w-[141px] !bg-[#b9c5d1] !border-[#b9c5d1] hover:!border-primary text-white hover:!text-white hover:!bg-primary">Compare</a>
             </div>
             <div class="w-full flex md:hidden items-end justify-end mt-[-60px]">
               <details class="dropdown mb-[38px]">
@@ -52,8 +52,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -80,8 +88,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -108,8 +124,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -136,8 +160,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -164,8 +196,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -192,8 +232,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -220,8 +268,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -248,8 +304,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -276,8 +340,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -304,8 +376,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -332,8 +412,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -360,8 +448,16 @@ require('includes/header.php');
                 <div class="with-hover-animation">
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
-                <div class="absolute top-0 right-0 px-4 py-[9px] bg-primary">
-                  <div class="cbBlock">
+                <div class="absolute top-0 right-0 left w-full flex items-center">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                    <div class="form-control">
+                      <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
+                        <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
+                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
                     <div class="form-control">
                       <label class="label cursor-pointer items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
@@ -373,7 +469,7 @@ require('includes/header.php');
               </div>
               <div class="contentBlock">
                 <div class="w-full gap-6 flex items-start justify-between mb-[37px] lg:mb-[47px]">
-                  <p class="mb-0 text-lightWhite text-lead md:text-[17px] lg:1text-lg font-semibold">$1,038,000</p>
+                  <p class="mb-0 text-lightWhite !text-lead md:!text-[17px] lg:!text-lg font-semibold">$1,038,000</p>
                   <div class="min-w-[32px]">
                     <p class="text-lightWhite mb-0 !text-xxs lg:!text-xs !leading-[100%]">3 Baths</p>
                     <p class="text-lightWhite mb-0 !text-xxs lg:!text-xs !leading-[100%]">2 Beds</p>
