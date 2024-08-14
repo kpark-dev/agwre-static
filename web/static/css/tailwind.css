@@ -301,6 +301,15 @@
     .cbBlock input.checkbox {
         @apply w-3.5 h-3.5 !rounded-sm border-primary;
     }
+    .homesItemBlock {
+        @apply w-full overflow-hidden rounded-[10px] shadow-[0px_3px_15px_rgba(0,0,0,0.3_)];
+    }
+    .homesItemBlock .imageBlock {
+        @apply max-h-[149px] lg:max-h-[194px] overflow-hidden relative;
+    }
+    .homesItemBlock .contentBlock {
+        @apply w-full bg-primary pt-[34px] pb-[29px] px-[27px] text-lightWhite;
+    }
 }   
 
 html, body {
