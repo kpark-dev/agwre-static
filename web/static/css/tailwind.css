@@ -258,8 +258,11 @@
     .btnLight {
         @apply bg-[#b9c5d1] border text-white border-solid border-[#b9c5d1] rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
     }
+    .btnHollow {
+        @apply bg-white border-[#0e202c] border text-primary border-solid rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+    } 
     .btnSolid {
-        @apply bg-primary border-primary border text-white border-solid rounded-[5px] hover:border-primary  hover:bg-primary hover:text-white h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
+        @apply bg-primary border-primary border text-white border-solid rounded-[5px] hover:border-primary  hover:bg-white hover:text-primary h-[56px] text-xxs lg:text-xs flex items-center justify-center transition-all duration-[0.2s] ease-[ease-in] hover:transition-all hover:duration-[0.2s] hover:ease-[ease-in] cursor-pointer;
     }
     .fullwidthChosen .chosen-container {
         @apply !max-w-[unset];
@@ -294,6 +297,9 @@
     }
     div#donutChart {
         @apply lg:ml-[-50px] mt-10 lg:mt-5;
+    }
+    .cbBlock input.checkbox {
+        @apply w-3.5 h-3.5 !rounded-sm border-primary;
     }
 }   
 
