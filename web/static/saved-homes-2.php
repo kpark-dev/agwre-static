@@ -134,19 +134,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -170,19 +170,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -206,19 +206,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -242,19 +242,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -278,19 +278,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -314,19 +314,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -350,19 +350,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -386,19 +386,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -422,19 +422,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -458,19 +458,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -494,19 +494,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
@@ -530,19 +530,19 @@ require('includes/header.php');
                   <img src="images/blogarticle-2.png" alt="" loading="lazy" />
                 </div>
                 <div class="absolute top-0 right-0 left w-full flex items-center">
-                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_129px)]">
+                  <div class="cbBlock px-4 py-[9px] bg-white w-[calc(100%_-_108px)] lg:w-[calc(100%_-_129px)]">
                     <div class="form-control">
                       <label class="label cursor-pointer !justify-center items-center flex gap-3 z-[1]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#ffffff] !border-[#0e202c] rounded-none" />
-                        <span class="label-text text-xxs tracking-[2px]">Compare</span>
+                        <span class="label-text !text-xxs tracking-[2px]">Compare</span>
                       </label>
                     </div>
                   </div>
-                  <div class="cbBlock px-4 py-[9px] bg-primary min-w-[129px]">
+                  <div class="cbBlock px-3 lg:px-4 py-[9px] bg-primary min-w-[45%] md:min-w-[unset] lg:min-w-[129px]">
                     <div class="form-control">
-                      <label class="label cursor-pointer items-center flex gap-3 z-[1]">
+                      <label class="label cursor-pointer items-center flex gap-3 z-[1] m-auto max-w-[90px]">
                         <input type="checkbox" class="checkbox w-[9px] h-[9px] bg-[#b9c5d1] !border-0 rounded-none" />
-                        <span class="label-text text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
+                        <span class="label-text !text-xxs !text-[#f8f8f9] tracking-[2px]">For sale </span>
                       </label>
                     </div>
                   </div>
