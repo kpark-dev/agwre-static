@@ -8,7 +8,7 @@ require('includes/header.php');
       <div class="row !mt-0 pb-20">
         <div class="fullwidth-col">
           <!-- desktop filter -->
-          <div class="max-w-[1200px] w-full mx-auto hidden lg:block mt-[28px] md:mt-[43px] lg:mt-[68px]">
+          <div class="max-w-[1200px] w-full mx-auto hidden lg:block mt-[28px] md:mt-[0] xxl:mt-[68px]">
             <div class="max-w-[1200px] w-full mx-auto shadow-[0px_3px_18px_rgba(0,0,0,0.5_)] bg-primary rounded-[10px] flex items-center justify-between gap-6 py-4 lg:py-[35px] pl-[23px] lg:pl-10 pr-[18px] lg:pr-10 mb-[37px]">
               <input type="text" class="w-full h-[31px] lg:h-10 max-w-[188px] lg:max-w-[328px] border-[#707070] bg-white rounded-[5px] border border-solid !ring-0 !outline-0" />
               <div class="flex flex-col">

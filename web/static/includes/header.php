@@ -8,6 +8,8 @@
     <meta name="description" content="Cranage" />
     <title>Atwwater Group</title>
     <link rel="stylesheet" href="js/photoswipe/photoswipe.css">
+    <script src="https://maps.google.com/maps/api/js?sensor=false"
+        type="text/javascript"></script>
     <link rel="stylesheet" href="js/photoswipe/default-skin/default-skin.css">
     <link rel="stylesheet" href="./../public/css/app.css">
 </head>
