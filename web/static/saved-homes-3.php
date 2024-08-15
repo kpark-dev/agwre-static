@@ -9,7 +9,7 @@ require('includes/header.php');
         <div class="fullwidth-col">
           <!-- title -->
           <div class="max-w-[1200px] w-full mx-auto mb-[30px] md:mb-[37px] lg:mb-[73px]">
-            <div class="flex items-start md:items-end gap-2 pt-[45px] lg:pt-[56px] flex-col md:flex-row">
+            <div class="flex items-start md:items-end gap-2 lg:pt-[56px] flex-col md:flex-row">
               <h1 class="text-[36px] md:text-[70px] lg:text-[90px] font-cirka mb-0 leading-[70%]">Saved Homes</h1>
               <p class="mb-0 text-xxs md:text-[11px] lg:text-xs">Showıng all 8 homes</p>
             </div>
