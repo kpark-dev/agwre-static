@@ -491,4 +491,12 @@ html, body {
         text-fill-color: transparent;
         -webkit-text-fill-color: transparent;
     }
-}
+    /* .leftFloater {
+        position: fixed !important;
+        bottom: 0 !important;
+        height: 100% !important;
+        top: 290px !important;
+        overflow-y: auto !important;
+        max-height: calc(100vh - 240px) !important;
+    } */
+} 
