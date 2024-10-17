@@ -102,7 +102,7 @@ require('includes/header.php');
       <div class="fullwidth-col">
         <div class="m-auto bg-primary max-w-[924px] w-full pb-[33px] md:pb-10 pt-[23px] md:pt-10 pr-[50px] md:pr-[55px] pl-[33px] md:pl-[55px]">
           <h2 class="font-cirka text-[30px] md:text-[38px] lg:text-[52px] text-lightWhite mb-0 max-w-[148px] md:max-w-[unset]">Looking to book a viewing?</h2>
-          <p class="ml-auto md:ml-0 pt-[115px] md:pt-[53px] lg:pt-[78px] text-lightWhite text-[11px] lg:text-s max-w-[183px] tracking-[2px] mb-[50px] md:mb-[130px] lg:mb-[184px]">Interested in receiving curated homes from an advisor?</p>
+          <p class="ml-auto md:ml-0 pt-[115px] md:pt-[53px] lg:pt-[78px] text-lightWhite text-[11px] lg:text-s max-w-[205px] tracking-[2px] mb-[50px] md:mb-[130px] lg:mb-[184px] uppercase">Interested in receiving curated homes from an advisor?</p>
           <div class="text-right">
             <a href="#" class="text-right text-lightWhite text-[11px] lg:text-[15px] tracking-[2px]">
               Connect wıth us now

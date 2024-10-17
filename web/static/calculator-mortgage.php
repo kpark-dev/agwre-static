@@ -204,7 +204,7 @@ require('includes/header.php');
       <div class="fullwidth-col">
         <div class="m-auto bg-primary max-w-[924px] w-full pb-[33px] md:pb-10 pt-[23px] md:pt-10 pr-[50px] md:pr-[55px] pl-[33px] md:pl-[55px]">
           <h2 class="font-cirka text-[30px] md:text-[38px] lg:text-[52px] text-lightWhite mb-0 max-w-[148px] md:max-w-[unset]">Looking to book a viewing?</h2>
-          <p class="ml-auto md:ml-0 pt-[115px] md:pt-[53px] lg:pt-[78px] text-lightWhite text-[11px] lg:text-s max-w-[183px] tracking-[2px] mb-[50px] md:mb-[130px] lg:mb-[184px]">Interested in receiving curated homes from an advisor?</p>
+          <p class="ml-auto md:ml-0 pt-[115px] md:pt-[53px] lg:pt-[78px] text-lightWhite text-[11px] lg:text-s max-w-[205px] tracking-[2px] mb-[50px] md:mb-[130px] lg:mb-[184px] uppercase">Interested in receiving curated homes from an advisor?</p>
           <div class="text-right">
             <a href="#" class="text-right text-lightWhite text-[11px] lg:text-[15px] tracking-[2px]">
               Connect wıth us now
@@ -217,9 +217,9 @@ require('includes/header.php');
     <div class="row pb-[130px] md:pb-[219px] lg:pb-[298px] pt-[130px] md:pt-[219px] lg:pt-[298px]">
       <div class="fullwidth-col">
         <div class="w-full justify-end gap-[60px] items-center max-w-[1106px] m-auto hidden md:flex mb-8 lg:mb-14">
-          <a href="#" class="text-xxs md:text-s">Hot deals</a>
-          <a href="#" class="text-xxs md:text-s">Most viewed</a>
-          <a href="#" class="text-xxs md:text-s">Latest homes</a>
+          <a href="#" class="text-xxs md:text-s uppercase">Hot deals</a>
+          <a href="#" class="text-xxs md:text-s uppercase">Most viewed</a>
+          <a href="#" class="text-xxs md:text-s uppercase">Latest homes</a>
         </div>
         <div class="block md:hidden">
           <p class="text-[45px] leading-[40px] lg:leading-[36px] font-cirka mb-10">Similar<br />
