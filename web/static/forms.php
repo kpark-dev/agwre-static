@@ -84,7 +84,7 @@ require('includes/header.php');
                   <div class="optionItem col-span-1">No</div>
                 </div>
                 <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start">
-                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Enter desired locatıon</p>
+                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Enter desired locatıon</p>
                   <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
                 </div>
                 <div class="pt-8 lg:pt-[54px]">
@@ -168,7 +168,7 @@ require('includes/header.php');
                 </div>
               </div>
               <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-20 lg:pb-[112px]">
-                <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">How much are you pre-approved for?</p>
+                <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">How much are you pre-approved for?</p>
                 <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
               </div>
               <!-- buttons -->
@@ -271,7 +271,7 @@ require('includes/header.php');
                 </div>
               </div>
               <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-20 lg:pb-[112px]">
-                <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">What is your approximate budget?</p>
+                <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">What is your approximate budget?</p>
                 <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
               </div>
               <!-- buttons -->
@@ -294,19 +294,19 @@ require('includes/header.php');
               <!-- content -->
               <div class="w-full max-w-[367px] lg:max-w-[496px] m-auto pt-20 lg:pt-[100px] pb-20 lg:pb-[112px]">
                 <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">First Name</p>
+                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">First Name</p>
                   <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
                 </div>
                 <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Email address</p>
+                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Email address</p>
                   <input type="email" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
                 </div>
                 <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Postal Code</p>
+                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Postal Code</p>
                   <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
                 </div>
                 <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Phone number (Optional)</p>
+                  <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Phone number (Optional)</p>
                   <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0" />
                 </div>
               </div>

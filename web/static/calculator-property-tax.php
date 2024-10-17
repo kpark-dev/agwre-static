@@ -6,7 +6,7 @@ require('includes/header.php');
   <main class="main-content">
     <!-- title -->
     <div class="w-full">
-      <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+      <div class="row pt-[11px] md:pt-[68px] lg:pt-[75px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
         <div class="fullwidth-col">
           <div class="max-w-[1278px] m-auto">
             <div class="w-full flex flex-col items-center lg:items-start gap-[39px] md:gap-[60px] lg:gap-[57px] mb-[49px] lg:mb-[126px]">
@@ -18,11 +18,11 @@ require('includes/header.php');
                 <h2 class="text-lead md:text-[30px] lg:text-[60px] mb-[45px] md:mb-[59px] lg:mb-[89px] font-circka">Standard Calculator</h2>
                 <p class="text-[11px] md:text-[12px] lg:text-md max-w-[445px] lg:max-w-[433px] text-center lg:text-left mb-[45px] lg:mb-[90px] opacity-75 leading-[180%]">The first calculator is what we call our standard calculator. This is to be used if the Buyer is not a First Time Home Buyer, or if they are purchasing a used home, not a new one.</p>
                 <div class="w-full max-w-[468px] lg:max-w-[358px] flex flex-col items-center lg:items-start mb-5 lg:mb-[47px]">
-                  <p class="max-w-[468px] lg:max-w-[358px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Gift or Loan </p>
+                  <p class="max-w-[468px] lg:max-w-[358px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Gift or Loan </p>
                   <input type="text" class="max-w-[468px] lg:max-w-[358px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                 </div>
                 <div class="w-full max-w-[468px] lg:max-w-[358px] flex flex-col items-center lg:items-start">
-                  <p class="max-w-[468px] lg:max-w-[358px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Interest rate </p>
+                  <p class="max-w-[468px] lg:max-w-[358px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Interest rate </p>
                   <input type="text" class="max-w-[468px] lg:max-w-[358px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                 </div>
               </div>
@@ -126,7 +126,7 @@ require('includes/header.php');
         </div>
         <div class="m-auto max-w-[394px] w-full">
           <div class="w-full max-w-[484px] lg:max-w-[496px] flex flex-col items-center lg:items-start">
-            <p class="max-w-[394px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Market value</p>
+            <p class="max-w-[394px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Market value</p>
             <input type="text" class="max-w-[394px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
           </div>
         </div>
@@ -139,7 +139,7 @@ require('includes/header.php');
   <div class="fullwidth-col">
     <div class="w-full max-w-[1007px] m-auto">
       <h2 class="text-center text-[40px] lg:text-[60px] mb-[55px] lg:mb-[85px] font-cirka">Not the result you expected to see?</h2>
-      <a href="#" class="m-auto w-[316px] h-[58px] text-lightWhite bg-primary rounded-[5px] text-[11px] text-center block leading-[58px] tracking-[1px] hover:opacity-80">Chat wıth us now</a>
+      <a href="#" class="m-auto w-[316px] h-[58px] text-lightWhite bg-primary rounded-[5px] text-[11px] text-center block leading-[58px] tracking-[1px] hover:opacity-80 uppercase">Chat wıth us now</a>
     </div>
   </div>
 </div>
@@ -155,28 +155,28 @@ require('includes/header.php');
       <div class="pt-[78px] md:pt-[97px] w-full flex flex-col md:flex-row gap-12 md:gap-[46px] items-center md:items-start">
         <div class="max-w-[321px] text-center md:text-right flex flex-col gap-12 md:gap-[67px]">
           <div class="w-full">
-            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Repayment</p>
+            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Repayment</p>
             <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Understand Loan Amortization and Monthly Payment Breakdowns.</p>
           </div>
           <div class="w-full">
-            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Property Transfer Tax</p>
+            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Property Transfer Tax</p>
             <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Estimate the amount of transfer tax you may be required to pay when buying or transferring a property.</p>
           </div>
         </div>
         <div class="flex flex-col gap-[90px] max-w-[285px]">
           <img src="images/Atwater-11.svg" loading="lazy" alt="" class="hidden m-auto md:block w-full max-w-[109px]" />
           <div class="w-full text-center">
-            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Refinance</p>
+            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Refinance</p>
             <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Potential Interest Savings, Lower Monthly Payments, and Evaluate the Benefits of Refinancing.</p>
           </div>
         </div>
         <div class="max-w-[321px] text-center md:text-left flex flex-col gap-12 md:gap-[67px]">
           <div class="w-full">
-            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">First-Time Home Buyer</p>
+            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">First-Time Home Buyer</p>
             <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine the amount of money you need to save for a down payment when purchasing your first home.</p>
           </div>
           <div class="w-full">
-            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Affordability</p>
+            <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Affordability</p>
             <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine Your Budget, Estimate Monthly Costs, and Find Your Ideal Property.</p>
           </div>
         </div>
@@ -196,31 +196,31 @@ require('includes/header.php');
         </div>
         <div class="w-full max-w-[493px] lg:max-w-[1021px] m-auto flex flex-col items-center gap-[15px] lg:gap-8">
           <div class="accordion-holder">
-            <button class="accordion">q: What is the principal of a loan?</button>
+            <button class="accordion uppercase">q: What is the principal of a loan?</button>
             <div class="panel">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
             </div>
           </div>
           <div class="accordion-holder active">
-            <button class="accordion active">How does a 15-year mortgage compare to a 30-year mortgage?</button>
+            <button class="accordion active uppercase">How does a 15-year mortgage compare to a 30-year mortgage?</button>
             <div class="panel active" style="display: block;">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
             </div>
           </div>
           <div class="accordion-holder">
-            <button class="accordion">q: How are mortgage payments calculated?</button>
+            <button class="accordion uppercase">q: How are mortgage payments calculated?</button>
             <div class="panel">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
             </div>
           </div>
           <div class="accordion-holder">
-            <button class="accordion">q: How much are closing costs?</button>
+            <button class="accordion uppercase">q: How much are closing costs?</button>
             <div class="panel">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
             </div>
           </div>
           <div class="accordion-holder">
-            <button class="accordion">q: How can you lower your mortgage payments?</button>
+            <button class="accordion uppercase">q: How can you lower your mortgage payments?</button>
             <div class="panel">
               <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
             </div>

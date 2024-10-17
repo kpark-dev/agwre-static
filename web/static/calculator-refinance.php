@@ -6,7 +6,7 @@ require('includes/header.php');
   <main class="main-content">
     <!-- title -->
     <div class="w-full">
-      <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+      <div class="row pt-[11px] md:pt-[68px] lg:pt-[75px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
         <div class="fullwidth-col">
           <div class="max-w-[1056px] m-auto">
             <div class="w-full flex flex-col items-center lg:items-start gap-[49px] md:gap-[65px] lg:gap-[70px] mb-[49px] lg:mb-[126px]">
@@ -16,18 +16,18 @@ require('includes/header.php');
             <!-- form -->
             <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-6 items-start justify-between">
               <div class="max-w-[444px]">
-                <p class="text-center lg:text-left text-base lg:text-lead mb-[72px] md:mb-[86px] lg:mb-[98px]">Current loan</p>
+                <p class="text-center lg:text-left text-base lg:text-lead mb-[72px] md:mb-[86px] lg:mb-[98px] uppercase">Current loan</p>
                 <div class="w-full max-w-[367px] lg:max-w-[444px] m-auto">
                   <div class="w-full max-w-[484px] lg:max-w-[496px] flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[335px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Current Loan Amount</p>
+                    <p class="max-w-[335px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Current Loan Amount</p>
                     <input type="text" class="max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[444px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Interest Rate</p>
+                    <p class="max-w-[444px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Interest Rate</p>
                     <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Term</p>
+                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Term</p>
                     <select class="chosen-select" data-placeholder="Select Your Options">
                       <option value="1">Option 1</option>
                       <option value="2">Option 2</option>
@@ -35,7 +35,7 @@ require('includes/header.php');
                     </select>
                   </div>
                   <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Origination Year</p>
+                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Origination Year</p>
                     <select class="chosen-select" data-placeholder="Select Your Options">
                       <option value="1">Option 1</option>
                       <option value="2">Option 2</option>
@@ -43,24 +43,24 @@ require('includes/header.php');
                     </select>
                   </div>
                   <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Phone number (Optional)</p>
+                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Phone number (Optional)</p>
                     <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                 </div>
               </div>
               <div class="max-w-[444px]">
-                <p class="text-center lg:text-left text-base lg:text-lead mb-[72px] md:mb-[86px] lg:mb-[98px]">New loan</p>
+                <p class="text-center lg:text-left text-base lg:text-lead mb-[72px] md:mb-[86px] lg:mb-[98px] uppercase">New loan</p>
                 <div class="w-full max-w-[367px] lg:max-w-[444px] m-auto">
                   <div class="w-full max-w-[484px] lg:max-w-[496px] flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[335px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">New Loan Amount</p>
+                    <p class="max-w-[335px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">New Loan Amount</p>
                     <input type="text" class="max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[444px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">New Interest Rate</p>
+                    <p class="max-w-[444px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">New Interest Rate</p>
                     <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">New Term</p>
+                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">New Term</p>
                     <select class="chosen-select" data-placeholder="Select Your Options">
                       <option value="1">Option 1</option>
                       <option value="2">Option 2</option>
@@ -68,7 +68,7 @@ require('includes/header.php');
                     </select>
                   </div>
                   <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Refinancing costs</p>
+                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Refinancing costs</p>
                     <select class="chosen-select" data-placeholder="Select Your Options">
                       <option value="1">Option 1</option>
                       <option value="2">Option 2</option>
@@ -76,11 +76,11 @@ require('includes/header.php');
                     </select>
                   </div>
                   <div class="w-full max-w-[484px] lg:max-w-[496px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Phone number (Optional)</p>
+                    <p class="max-w-[367px] lg:max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Phone number (Optional)</p>
                     <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] m-auto flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="max-w-[444px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Cash out (optıonal)</p>
+                    <p class="max-w-[444px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Cash out (optıonal)</p>
                     <input type="text" class="m-auto max-w-[367px] lg:max-w-[496px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                 </div>
@@ -95,7 +95,7 @@ require('includes/header.php');
       <div class="fullwidth-col">
         <div class="w-full max-w-[830px] m-auto flex flex-col md:flex-row items-start gap-10 md:gap-[88px] lg:gap-[106px]">
           <div class="w-full md:w-[45px]">
-            <p class="text-base md:text-[33px] lg:text-[40px] mb-0 md:-rotate-90 text-center md:text-left tracking-[6px] md:mt-[160px] font-semibold">Summary</p>
+            <p class="text-base md:text-[33px] lg:text-[40px] mb-0 md:-rotate-90 text-center md:text-left tracking-[6px] md:mt-[160px] font-semibold uppercase">Summary</p>
           </div>
           <div class="w-full">
             <div class="flex items-start gap-10 md:gap-[90px] lg:gap-20 justify-between md:justify-start mb-[47px] md:mb-20 lg:mb-[103px] max-w-[380px] mx-auto md:mx-0">
@@ -109,7 +109,7 @@ require('includes/header.php');
         </div>
         <!-- slider -->
         <div class="w-full">
-          <div class="w-full max-w-[830px] m-auto flex items-start gap-10 md:gap-[88px] lg:gap-[106px] mb-[126px] md:0">
+          <div class="w-full max-w-[830px] m-auto flex items-start gap-10 md:gap-[88px] lg:gap-[106px] mb-[0] md:0">
             <div class="hidden md:block w-[45px]">
               <p class="text-base md:text-[33px] lg:text-[40px] mb-0 md:-rotate-90 text-center md:text-left tracking-[6px] mt-[160px] font-semibold">&nbsp;</p>
             </div>
@@ -166,7 +166,7 @@ require('includes/header.php');
       <div class="fullwidth-col">
         <div class="w-full max-w-[1007px] m-auto">
           <h2 class="text-center text-[40px] lg:text-[60px] mb-[55px] lg:mb-[85px] font-cirka">Not the result you expected to see?</h2>
-          <a href="#" class="m-auto w-[316px] h-[58px] text-lightWhite bg-primary rounded-[5px] text-[11px] text-center block leading-[58px] tracking-[1px] hover:opacity-80">Chat wıth us now</a>
+          <a href="#" class="m-auto w-[316px] h-[58px] text-lightWhite bg-primary rounded-[5px] text-[11px] text-center block leading-[58px] tracking-[1px] hover:opacity-80 uppercase">Chat wıth us now</a>
         </div>
       </div>
     </div>
@@ -182,28 +182,28 @@ require('includes/header.php');
           <div class="pt-[78px] md:pt-[97px] w-full flex flex-col md:flex-row gap-12 md:gap-[46px] items-center md:items-start">
             <div class="max-w-[321px] text-center md:text-right flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Repayment</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Repayment</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Understand Loan Amortization and Monthly Payment Breakdowns.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Property Transfer Tax</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Property Transfer Tax</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Estimate the amount of transfer tax you may be required to pay when buying or transferring a property.</p>
               </div>
             </div>
             <div class="flex flex-col gap-[90px] max-w-[285px]">
               <img src="images/Atwater-11.svg" loading="lazy" alt="" class="hidden m-auto md:block w-full max-w-[109px]" />
               <div class="w-full text-center">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Refinance</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Refinance</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Potential Interest Savings, Lower Monthly Payments, and Evaluate the Benefits of Refinancing.</p>
               </div>
             </div>
             <div class="max-w-[321px] text-center md:text-left flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">First-Time Home Buyer</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">First-Time Home Buyer</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine the amount of money you need to save for a down payment when purchasing your first home.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Affordability</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Affordability</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine Your Budget, Estimate Monthly Costs, and Find Your Ideal Property.</p>
               </div>
             </div>
@@ -223,31 +223,31 @@ require('includes/header.php');
             </div>
             <div class="w-full max-w-[493px] lg:max-w-[1021px] m-auto flex flex-col items-center gap-[15px] lg:gap-8">
               <div class="accordion-holder">
-                <button class="accordion">q: What is the principal of a loan?</button>
+                <button class="accordion uppercase">q: What is the principal of a loan?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder active">
-                <button class="accordion active">How does a 15-year mortgage compare to a 30-year mortgage?</button>
+                <button class="accordion active uppercase">How does a 15-year mortgage compare to a 30-year mortgage?</button>
                 <div class="panel active" style="display: block;">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder">
-                <button class="accordion">q: How are mortgage payments calculated?</button>
+                <button class="accordion uppercase">q: How are mortgage payments calculated?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder">
-                <button class="accordion">q: How much are closing costs?</button>
+                <button class="accordion uppercase">q: How much are closing costs?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder">
-                <button class="accordion">q: How can you lower your mortgage payments?</button>
+                <button class="accordion uppercase">q: How can you lower your mortgage payments?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>

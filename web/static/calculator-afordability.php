@@ -18,27 +18,27 @@ require('includes/header.php');
               <div class="mx-auto lg:mx-0 w-full max-w-[468px] lg:max-w-[444px]">
                 <div class="w-full max-w-[468px] lg:max-w-[444px] m-auto">
                   <div class="w-full flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">What’s your annual salary/wages?</p>
+                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">What’s your annual salary/wages?</p>
                     <input type="text" class="max-w-[unset] lg:max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div> 
                   <div class="w-full flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">What’s the second applicant’s annual salary/wages? </p>
+                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">What’s the second applicant’s annual salary/wages? </p>
                     <input type="text" class="max-w-[unset] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Down Payment </p>
+                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Down Payment </p>
                     <input type="text" class="max-w-[unset] lg:max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Total other ıncomes </p>
+                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Total other ıncomes </p>
                     <input type="text" class="max-w-[unset] lg:max-w-[335px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Total personal and vehicle loan repayments </p>
+                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Total personal and vehicle loan repayments </p>
                     <input type="text" class="max-w-[unset] lg:max-w-[371px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                   <div class="w-full max-w-[444px] flex flex-col items-center lg:items-start pb-5 lg:pb-[33px]">
-                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Total credit card limits </p>
+                    <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Total credit card limits </p>
                     <input type="text" class="max-w-[unset] lg:max-w-[371px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
                   </div>
                 </div>
@@ -47,14 +47,14 @@ require('includes/header.php');
               <div class="w-full grid lg:hidden grid-cols-1 lg:grid-cols-2 gap-[0]  items-center lg:items-start justify-between">
                 <div class="mx-auto lg:mx-0 w-full max-w-[468px] lg:max-w-[496px]">
                   <div class="w-full max-w-[496px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[74px]">
-                    <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Do you have another source of income?</p>
+                    <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Do you have another source of income?</p>
                     <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                       <div class="optionItem2 col-span-1 active md:tracking-[2px]">Yes</div>
                       <div class="optionItem2 col-span-1 md:tracking-[2px]">No</div>
                     </div>
                   </div>
                   <div class="w-full max-w-[496px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[0]">
-                    <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Do you have any credit cards?</p>
+                    <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Do you have any credit cards?</p>
                     <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                       <div class="optionItem2 col-span-1 active md:tracking-[2px]">Yes</div>
                       <div class="optionItem2 col-span-1 md:tracking-[2px]">No</div>
@@ -63,14 +63,14 @@ require('includes/header.php');
                 </div>
                 <div class="mx-auto lg:mx-0 w-full max-w-[468px] lg:max-w-[unset]">
                   <div class="w-full max-w-[598px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[74px]">
-                    <p class="max-w-[598px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">How many of you are buying the property? </p>
+                    <p class="max-w-[598px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">How many of you are buying the property? </p>
                     <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                       <div class="optionItem2 col-span-1 active md:tracking-[2px] lg:min-w-[289px]">I’m buying with someone </div>
                       <div class="optionItem2 col-span-1 md:tracking-[2px] lg:max-w-[238px]">Just Me </div>
                     </div>
                   </div>
                   <div class="w-full max-w-[496px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[0]">
-                    <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Do you have any personal or vehicle loans? </p>
+                    <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Do you have any personal or vehicle loans? </p>
                     <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                       <div class="optionItem2 col-span-1 active md:tracking-[2px]">Yes</div>
                       <div class="optionItem2 col-span-1 md:tracking-[2px]">No</div>
@@ -80,7 +80,7 @@ require('includes/header.php');
               </div>
               <div class="mt-0 m-auto lg:ml-auto w-full lg:max-w-[682px]">
                 <div class="flex justify-between md:justify-start items-start w-full md:gap-[202px]  lg:gap-[148px] mb-[50px] md:mb-[105px]">
-                  <p class=" mb-0 text-[24px] md:text-[32px] lg:text-[40px] tracking-[2px] font-semibold">Aggressıve </p>
+                  <p class=" mb-0 text-[24px] md:text-[32px] lg:text-[40px] tracking-[2px] font-semibold uppercase">Aggressıve </p>
                   <div class="text-right md:text-left lg:text-center">
                     <p class="mb-0 text-[25px] md:text-[34px] lg:text-[38px] font-semibold">$6,070</p>
                     <p class="mb-0 text-[7px] md:text-[9px] lg:text-xxs tracking-[2px]">Per month</p>
@@ -90,7 +90,7 @@ require('includes/header.php');
                   <div class="slider-range-holder relative">
                     <div class="slider-wrapper">
                       <div id="slider-affordability-range"></div>
-                      <p class="absolute -bottom-10 left-0 text-xxs lg:text-xs tracking-[2px] mb-0">Affordable</p>
+                      <p class="absolute -bottom-10 left-0 text-xxs lg:text-xs tracking-[2px] mb-0 uppercase">Affordable</p>
                       <p class="absolute -bottom-10 right-0 text-xxs lg:text-xs tracking-[2px] mb-0">Aggressive</p>
                     </div>
                   </div>
@@ -99,16 +99,16 @@ require('includes/header.php');
                   <div class="max-w-[252px]">
                     <div class="flex flex-col gap-10 lg:gap-[50px]">
                       <div class="flex gap-[37px] items-center">
-                        <p class="text-[10px] lg:text-xxs mb-0">Monthly payment </p>
+                        <p class="text-[10px] lg:text-xxs mb-0 uppercase">Monthly payment </p>
                         <p class="text-[22px] lg:text-[26px] mb-0 font-semibold">$1865 </p>
                       </div>
                       <div class="flex gap-[37px] items-center">
-                        <p class="text-[10px] lg:text-xxs mb-0">Down payment </p>
+                        <p class="text-[10px] lg:text-xxs mb-0 uppercase">Down payment </p>
                         <p class="text-[22px] lg:text-[26px] mb-0 font-semibold">20%
                         </p>
                       </div>
                       <div class="flex gap-[37px] items-center">
-                        <a href="#" class="no-underline text-[10px] lg:text-xxs mb-0 tracking-[2px]">Reset to default </a>
+                        <a href="#" class="no-underline text-[10px] lg:text-xxs mb-0 uppercase tracking-[2px]">Reset to default </a>
                         <p class="text-[22px] lg:text-[26px] mb-0 font-semibold">&nbsp;</p>
                       </div>
                     </div>
@@ -126,14 +126,14 @@ require('includes/header.php');
             <div class="mt-[146px] w-full hidden lg:grid grid-cols-1 lg:grid-cols-2 gap-[85px] md:gap-[73px] items-center lg:items-start justify-between">
               <div class="mx-auto lg:mx-0 w-full max-w-[468px] lg:max-w-[496px]">
                 <div class="w-full max-w-[496px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[74px]">
-                  <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Do you have another source of income?</p>
+                  <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Do you have another source of income?</p>
                   <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                     <div class="optionItem2 col-span-1 active md:tracking-[2px]">Yes</div>
                     <div class="optionItem2 col-span-1 md:tracking-[2px]">No</div>
                   </div>
                 </div>
                 <div class="w-full max-w-[496px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[0]">
-                  <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Do you have any credit cards?</p>
+                  <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Do you have any credit cards?</p>
                   <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                     <div class="optionItem2 col-span-1 active md:tracking-[2px]">Yes</div>
                     <div class="optionItem2 col-span-1 md:tracking-[2px]">No</div>
@@ -142,14 +142,14 @@ require('includes/header.php');
               </div>
               <div class="mx-auto lg:mx-0 w-full max-w-[468px] lg:max-w-[unset]">
                 <div class="w-full max-w-[598px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[74px]">
-                  <p class="max-w-[598px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">How many of you are buying the property? </p>
+                  <p class="max-w-[598px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">How many of you are buying the property? </p>
                   <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                     <div class="optionItem2 col-span-1 active md:tracking-[2px] xxl:min-w-[289px]">I’m buying with someone </div>
                     <div class="optionItem2 col-span-1 md:tracking-[2px] lg:max-w-[238px]">Just Me </div>
                   </div>
                 </div>
                 <div class="w-full max-w-[496px] flex flex-col items-center lg:items-start pb-6 md:pb-[73px] lg:pb-[0]">
-                  <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Do you have any personal or vehicle loans? </p>
+                  <p class="max-w-[496px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Do you have any personal or vehicle loans? </p>
                   <div class="w-full grid grid-cols-2 gap-[14px] lg:gap-5">
                     <div class="optionItem2 col-span-1 active md:tracking-[2px]">Yes</div>
                     <div class="optionItem2 col-span-1 md:tracking-[2px]">No</div>
@@ -166,7 +166,7 @@ require('includes/header.php');
       <div class="fullwidth-col">
         <div class="w-full max-w-[1007px] m-auto">
           <h2 class="text-center text-[40px] lg:text-[60px] mb-[55px] lg:mb-[85px] font-cirka">Not the result you expected to see?</h2>
-          <a href="#" class="m-auto w-[316px] h-[58px] text-lightWhite bg-primary rounded-[5px] text-[11px] text-center block leading-[58px] tracking-[1px] hover:opacity-80">Chat wıth us now</a>
+          <a href="#" class="m-auto w-[316px] h-[58px] text-lightWhite bg-primary rounded-[5px] text-[11px] text-center block leading-[58px] tracking-[1px] hover:opacity-80 uppercase">Chat wıth us now</a>
         </div>
       </div>
     </div>
@@ -182,28 +182,28 @@ require('includes/header.php');
           <div class="pt-[78px] md:pt-[97px] w-full flex flex-col md:flex-row gap-12 md:gap-[46px] items-center md:items-start">
             <div class="max-w-[321px] text-center md:text-right flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Repayment</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Repayment</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Understand Loan Amortization and Monthly Payment Breakdowns.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Property Transfer Tax</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Property Transfer Tax</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Estimate the amount of transfer tax you may be required to pay when buying or transferring a property.</p>
               </div>
             </div>
             <div class="flex flex-col gap-[90px] max-w-[285px]">
               <img src="images/Atwater-11.svg" loading="lazy" alt="" class="hidden m-auto md:block w-full max-w-[109px]" />
               <div class="w-full text-center">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Refinance</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Refinance</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Potential Interest Savings, Lower Monthly Payments, and Evaluate the Benefits of Refinancing.</p>
               </div>
             </div>
             <div class="max-w-[321px] text-center md:text-left flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">First-Time Home Buyer</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">First-Time Home Buyer</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine the amount of money you need to save for a down payment when purchasing your first home.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Affordability</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Affordability</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine Your Budget, Estimate Monthly Costs, and Find Your Ideal Property.</p>
               </div>
             </div>
@@ -223,31 +223,31 @@ require('includes/header.php');
             </div>
             <div class="w-full max-w-[493px] lg:max-w-[1021px] m-auto flex flex-col items-center gap-[15px] lg:gap-8">
               <div class="accordion-holder">
-                <button class="accordion">q: What is the principal of a loan?</button>
+                <button class="accordion uppercase">q: What is the principal of a loan?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder active">
-                <button class="accordion active">How does a 15-year mortgage compare to a 30-year mortgage?</button>
+                <button class="accordion active uppercase">How does a 15-year mortgage compare to a 30-year mortgage?</button>
                 <div class="panel active" style="display: block;">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder">
-                <button class="accordion">q: How are mortgage payments calculated?</button>
+                <button class="accordion uppercase">q: How are mortgage payments calculated?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder">
-                <button class="accordion">q: How much are closing costs?</button>
+                <button class="accordion uppercase">q: How much are closing costs?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>
               </div>
               <div class="accordion-holder">
-                <button class="accordion">q: How can you lower your mortgage payments?</button>
+                <button class="accordion uppercase">q: How can you lower your mortgage payments?</button>
                 <div class="panel">
                   <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor</p>
                 </div>

@@ -5,7 +5,7 @@ require('includes/header.php');
 <div class="main-holder">
   <main class="main-content">
     <!-- banner -->
-    <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+    <div class="row pt-[11px] md:pt-[68px] lg:pt-[75px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
       <div class="fullwidth-col">
         <div class="max-w-[889px] m-auto">
           <h1 class="text-[43px] leading-[34px] md:text-[92px] md:leading-[74px] lg:text-[120px] lg:leading-[96px] mb-0 md:mb-[-205px] lg:mb-[-265px] z-[1] relative font-cirka">Forward. <br />Our Favorite <br />Direction.</h1>

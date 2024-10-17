@@ -4,7 +4,7 @@ require('includes/header.php');
 
 <div class="main-holder">
   <main class="main-content">
-    <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+    <div class="row pt-[11px] md:pt-[68px] lg:pt-[75px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
       <div class="fullwidth-col">
         <div class="max-w-[1236px] m-auto">
           <h1 class="text-[45px] leading-[36px] md:text-[79px] md:leading-[63px] lg:text-[120px] lg:leading-[96px] mb-10 relative font-cirka">Legal Documents</h1>

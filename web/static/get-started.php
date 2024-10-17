@@ -5,7 +5,7 @@ require('includes/header.php');
 <div class="main-holder">
   <main class="main-content">
     <!-- banner -->
-    <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+    <div class="row pt-[11px] md:pt-[68px] lg:pt-[75px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
       <div class="fullwidth-col">
         <div class="max-w-[965px] m-auto mb-[85px] flex flex-row md:flex-col gap-[5px] md:gap-[75px] items-center lg:items-start">
           <h1 class="text-[43px] leading-[34px] md:text-[70px] md:leading-[74px] lg:text-[150px] lg:leading-[120px] mb-auto font-cirka max-w-[175px] min-w-[175px] md:max-w-[unset] m-auto">Let’s get Started</h1>

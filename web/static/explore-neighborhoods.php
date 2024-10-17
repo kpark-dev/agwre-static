@@ -5,7 +5,7 @@ require('includes/header.php');
 <div class="main-holder">
   <main class="main-content">
     <!-- banner -->
-    <div class="row pt-[11px] md:pt-[68px] lg:pt-[184px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+    <div class="row pt-[11px] md:pt-[68px] lg:pt-[75px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
       <div class="fullwidth-col">
         <div class="max-w-[1045px] m-auto">
           <h1 class="text-[45px] leading-[36px] md:text-[79px] md:leading-[63px] lg:text-[120px] lg:leading-[96px] mb-6 md:mb-[59px] lg:mb-[88px] z-[1] relative font-cirka">Explore Neighborhoods</h1>

@@ -1956,6 +1956,7 @@
                 // rangeSliderNoVal('#slider-affordability-range');
                 // initDonutChart('#donutChart');
                 initDonutChart2('#donutChart2');
+                initDonutChart('#donutChart');
             }
         }
 

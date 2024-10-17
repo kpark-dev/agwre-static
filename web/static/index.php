@@ -800,15 +800,15 @@ require('includes/header.php');
           <div class="pt-[78px] md:pt-[97px] w-full flex flex-col md:flex-row gap-12 md:gap-[46px] items-center md:items-start justify-between">
             <div class="max-w-[321px] text-center md:text-right flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Repayment</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Repayment</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Understand Loan Amortization and Monthly Payment Breakdowns.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Property Transfer Tax</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Property Transfer Tax</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Estimate the amount of transfer tax you may be required to pay when buying or transferring a property.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Refinance</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Refinance</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Potential Interest Savings, Lower Monthly Payments, and Evaluate the Benefits of Refinancing.</p>
               </div>
             </div>
@@ -817,15 +817,15 @@ require('includes/header.php');
             </div>
             <div class="max-w-[321px] text-center md:text-left flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Calculator</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Calculator</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Monthly Payments, Interest Rates, and Total Costs.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">First-Time Home Buyer</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">First-Time Home Buyer</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine the amount of money you need to save for a down payment when purchasing your first home.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Affordability</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Affordability</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine Your Budget, Estimate Monthly Costs, and Find Your Ideal Property.</p>
               </div>
             </div>

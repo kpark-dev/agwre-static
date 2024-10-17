@@ -154,15 +154,15 @@ require('includes/header.php');
           <p class="text-[30px] md:text-[50px] lg:text-[70px] font-cirka leading-[100%] text-center mb-[92px] md:mb-[102px] lg:mb-[130px]">Mortgage <br />Payment Calculator </p>
           <div class="w-full grid grid-cols-1 md:grid-cols-4 gap-5 md:gap-6 lg:gap-10">
             <div class="w-full flex flex-col items-center md:items-start">
-              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">DownPayment</p>
+              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">DownPayment</p>
               <input type="text" class="max-w-[320px] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
             </div>
             <div class="w-full flex flex-col items-center md:items-start">
-              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">%DownPayment</p>
+              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">%DownPayment</p>
               <input type="text" class="max-w-[320px] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
             </div>
             <div class="w-full max-w-[320px] lg:max-w-[unset] m-auto flex flex-col items-center md:items-start fullwidthChosen">
-              <p class="max-w-[unset] lg:max-w-[367px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Loan Type</p>
+              <p class="max-w-[unset] lg:max-w-[367px] text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Loan Type</p>
               <select class="w-full chosen-select" data-placeholder="Select Your Options">
                 <option value="1">Option 1</option>
                 <option value="2">Option 2</option>
@@ -170,7 +170,7 @@ require('includes/header.php');
               </select>
             </div>
             <div class="w-full flex flex-col items-center md:items-start">
-              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4">Interest rate</p>
+              <p class="text-xxs lg:text-s tracking-[2px] text-center lg:text-left mb-2 lg:mb-4 uppercase">Interest rate</p>
               <input type="text" class="max-w-[320px] lg:max-w-[444px] w-full h-14 bg-[#f8f8f9] rounded-[5px] !border-0 !ring-0 !outline-0">
             </div>
           </div>
@@ -640,15 +640,15 @@ require('includes/header.php');
           <div class="pt-[78px] md:pt-[97px] w-full flex flex-col md:flex-row gap-12 md:gap-[46px] items-center md:items-start justify-between">
             <div class="max-w-[321px] text-center md:text-right flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Repayment</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Repayment</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Understand Loan Amortization and Monthly Payment Breakdowns.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Property Transfer Tax</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Property Transfer Tax</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Estimate the amount of transfer tax you may be required to pay when buying or transferring a property.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Refinance</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Refinance</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Potential Interest Savings, Lower Monthly Payments, and Evaluate the Benefits of Refinancing.</p>
               </div>
             </div>
@@ -657,15 +657,15 @@ require('includes/header.php');
             </div>
             <div class="max-w-[321px] text-center md:text-left flex flex-col gap-12 md:gap-[67px]">
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Mortgage Calculator</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Mortgage Calculator</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Calculate Monthly Payments, Interest Rates, and Total Costs.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">First-Time Home Buyer</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">First-Time Home Buyer</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine the amount of money you need to save for a down payment when purchasing your first home.</p>
               </div>
               <div class="w-full">
-                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px]">Affordability</p>
+                <p class="text-xs md:text-[17px] lg:text-[26px] mb-[34px] uppercase">Affordability</p>
                 <p class="text-xxs md:text-xs lg:text-base mb-0 max-w-[285px] font-light opacity-70">Determine Your Budget, Estimate Monthly Costs, and Find Your Ideal Property.</p>
               </div>
             </div>
