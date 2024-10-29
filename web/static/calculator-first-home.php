@@ -6,7 +6,7 @@ require('includes/header.php');
   <main class="main-content">
     <!-- title -->
     <div class="w-full">
-      <div class="row pt-[58px] md:pt-[73px] lg:pt-[108px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
+      <div class="row pt-[58px] md:pt-[69px] lg:pt-[69px] pb-[50px] md:pb-[90px] lg:pb-[150px]">
         <div class="fullwidth-col">
           <div class="max-w-[1333px] m-auto">
             <div class="w-full flex flex-col lg:flex-row items-center lg:items-end gap-[38px] md:gap-[35px] lg:gap-[51px] mb-[60px] md:mb-[43px] lg:mb-[94px] ">
@@ -57,7 +57,7 @@ require('includes/header.php');
                 <div class="flex flex-col-reverse xxl:flex-col">
                   <div class="w-full">
                     <div class="pt-[112px] md:pt-0 flex justify-between md:justify-end items-start w-full md:gap-[163px] lg:gap-[168px] mb-[50px] md:mb-[69px] lg:mb-[105px]">
-                      <p class=" mb-0 text-[24px] md:text-[32px] lg:text-[40px] tracking-[10px] font-semibold">deposıt </p>
+                      <p class=" mb-0 text-[24px] md:text-[32px] lg:text-[40px] tracking-[10px] font-semibold uppercase">deposıt </p>
                       <div class="text-right md:text-left lg:text-right">
                         <p class="mb-0 text-[25px] md:text-[34px] lg:text-[38px] font-semibold">$50000</p>
                         <p class="mb-0 text-[7px] md:text-[9px] lg:text-xxs tracking-[2px]">Total</p>
@@ -67,10 +67,10 @@ require('includes/header.php');
                     <div class="w-full lg:pb-[83px]">
                       <div class="flex items-center md:items-start justify-center">
                         <div class="text-left md:text-right min-w-[150px] max-w-[150px] md:min-w-[212px] md:max-w-[212px] lg:min-w-[279px] lg:max-w-[279px] md:pr-[45px] lg:pr-[75px] flex flex-col gap-[70px] md:gap-[43px] lg:gap-[55px] pt-[35px] lg:pt-[50px] mr-[-51px] md:mr-0 z-[1]">
-                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[150px] md:max-w-[unset]">You could possibly purchase a property valued up to:</p>
-                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[150px] md:max-w-[unset]">With a home loan of:</p>
-                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[162px] md:max-w-[unset] md:mb-[33px] lg:mb-[65px] mt-[-15px] md:mt-0">The weekly repayments would be:</p>
-                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[86px] md:max-w-[unset] mt-[4px] md:mt-0">Assumıng a deposit of:</p>
+                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[150px] md:max-w-[unset] uppercase">You could possibly purchase a property valued up to:</p>
+                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[150px] md:max-w-[unset] uppercase">With a home loan of:</p>
+                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[162px] md:max-w-[unset] md:mb-[33px] lg:mb-[65px] mt-[-15px] md:mt-0 uppercase">The weekly repayments would be:</p>
+                          <p class="text-xxs lg:text-xs leading-[160%] tracking-[2px] md:tracking-normal max-w-[86px] md:max-w-[unset] mt-[4px] md:mt-0 uppercase">Assumıng a deposit of:</p>
                         </div>
                         <div class="px-[27px] lg:px-[34px] py-[36px] lg:py-[46px] bg-[#dfe6ee] mr-4 lg:mr-5 w-[42px] h-[326px] md:w-[128px] md:h-[355px] lg:w-[164px] lg:h-[455px]  flex flex-col gap-[42px] lg:gap-[52px] mt-[94px] md:mt-0">
                           <p class="text-s md:text-lg lg:text-[26px] font-semibold text-nowrap text-center md:text-left min-w-[72px] ml-[-37px] md:ml-0">$1,000,000</p>
@@ -96,7 +96,7 @@ require('includes/header.php');
                   <!-- options -->
                   <div class="w-full">
                     <div class="w-full mx-auto xxl:mx-0 max-w-[748px] flex flex-col items-center xxl:items-start pb-6 md:pb-[73px] lg:pb-[74px]">
-                      <p class="max-w-[748px] text-xxs lg:text-s tracking-[2px] text-center xxl:text-left mb-2 lg:mb-4">Repayment Cycle</p>
+                      <p class="max-w-[748px] text-xxs lg:text-s tracking-[2px] text-center xxl:text-left mb-2 lg:mb-4 uppercase">Repayment Cycle</p>
                       <div class="w-full grid grid-cols-3 gap-[14px] lg:gap-5">
                         <div class="pointer-events-none optionItem2 col-span-1 active md:tracking-[2px]">Weekly</div>
                         <div class="pointer-events-none optionItem2 col-span-1 md:tracking-[2px] shadow-[0px_3px_15px_rgba(0,0,0,0.3_)] !bg-[#b9c5d1]">Monthly</div>

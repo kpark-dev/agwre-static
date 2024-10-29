@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/geomanist');
+/* @import url('https://fonts.cdnfonts.com/css/geomanist'); */
 @import '../js/jqueryui/jquery-ui.min.css';
 @import '../js/slick/slick.css';
 @import '../js/swiper.min.css';
@@ -13,7 +13,15 @@
 
 @font-face {
     font-family: 'Cirka';
-    src: url('../../public/fonts/Cirka-Variable.ttf') format('ttf');
+    src: url('../../public/fonts/Cirka-Regular.otf') format('opentype');
+    font-display: swap;
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Geomanist';
+    src: url('../../public/fonts/Geomanist-Regular2.otf') format('opentype');
     font-display: swap;
     font-weight: normal;
     font-style: normal;
